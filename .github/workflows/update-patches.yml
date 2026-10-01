@@ -1,26 +1,72 @@
-name: Update LoL patches
+name: Update LoL patches and deploy
+
 on:
+  # Automatically check twice per day.
   schedule:
     - cron: '17 */12 * * *'
+
+  # Gives you a "Run workflow" button in GitHub.
   workflow_dispatch:
+
+  # Also redeploy whenever you manually change the site.
+  push:
+    branches:
+      - main
+
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-      - run: npm install
-      - run: npm run update
-      - name: Commit patch data if changed
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check Riot for new patches
+        run: npm run update
+
+      - name: Commit updated patch data
         run: |
-          if git diff --quiet; then exit 0; fi
-          git config user.name "patch-bot"
-          git config user.email "patch-bot@users.noreply.github.com"
-          git add data/patches.json
-          git commit -m "Update LoL patch data"
-          git push
+          if git diff --quiet data/patches.json; then
+            echo "No patch data changes."
+          else
+            git config user.name "lol-patch-bot"
+            git config user.email "lol-patch-bot@users.noreply.github.com"
+            git add data/patches.json
+            git commit -m "Update LoL patch data"
+            git push
+          fi
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.'
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
