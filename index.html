@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Strong Champions — LoL Patch Tracker</title>
+  <meta name="description" content="Track champions buffed repeatedly across the latest five League of Legends patches." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="#strong" aria-label="Strong Champions home">
+        <span class="brand-mark">SC</span>
+        <span><strong>Strong Champions</strong><small>LoL patch tracker</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#strong" data-nav="strong">Strong Champions</a>
+        <a href="#patches" data-nav="patches">Patch Discovery</a>
+        <a href="#about" data-nav="about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section id="strong-view" class="view">
+      <div class="hero">
+        <div>
+          <p class="eyebrow">ROLLING 5-PATCH WINDOW</p>
+          <h1>Champions Riot keeps buffing</h1>
+          <p class="lede">Find champions that received genuine direct buffs in multiple recent Summoner's Rift patches.</p>
+        </div>
+        <div class="hero-meta">
+          <span>Current window</span>
+          <strong id="window-label">—</strong>
+          <small id="updated-label">Loading…</small>
+        </div>
+      </div>
+
+      <section class="panel controls" aria-label="Strong champion filters">
+        <label for="threshold">Minimum buffed patches</label>
+        <div class="threshold-row">
+          <input id="threshold" type="range" min="1" max="5" value="2" />
+          <output id="threshold-output" for="threshold">2 / 5</output>
+        </div>
+        <p class="muted">A champion counts once per patch, even if several abilities were buffed.</p>
+      </section>
+
+      <div class="section-heading">
+        <div><h2>Strong Champions</h2><p id="result-summary" class="muted"></p></div>
+        <select id="sort" aria-label="Sort champions">
+          <option value="buffs">Most buffs</option>
+          <option value="recent">Most recent buff</option>
+          <option value="name">Champion name</option>
+        </select>
+      </div>
+      <div id="strong-grid" class="champion-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="patches-view" class="view hidden">
+      <div class="hero compact">
+        <div>
+          <p class="eyebrow">PATCH DISCOVERY</p>
+          <h1>Browse the latest five patches</h1>
+          <p class="lede">Read direct champion balance changes without digging through every mode and system update.</p>
+        </div>
+      </div>
+      <div id="patch-tabs" class="patch-tabs" role="tablist" aria-label="Recent patches"></div>
+      <div id="patch-content"></div>
+    </section>
+
+    <section id="about-view" class="view hidden">
+      <div class="hero compact"><div><p class="eyebrow">HOW IT WORKS</p><h1>Conservative by design</h1></div></div>
+      <div class="panel prose">
+        <h2>What counts as a buff?</h2>
+        <p>Only direct Summoner's Rift champion changes classified as a genuine buff count toward Strong Champions. Mixed role shifts and compensation changes are stored as <strong>adjustments</strong>, while nerfs never subtract an earlier buff.</p>
+        <p>System-wide, item, rune, Arena, ARAM and League Classic changes are visible only through Riot's source page and do not count toward this tracker.</p>
+        <h2>Official Riot wording</h2>
+        <p>The app stores a short paraphrase of Riot's intent plus a direct source link. It deliberately avoids mirroring whole copyrighted patch-note passages.</p>
+        <h2>Updating</h2>
+        <p>The included Node script checks Riot's patch index, keeps the newest five patches, extracts the normal Champions section, and conservatively classifies obvious buffs and nerfs. Ambiguous changes are marked for review and can be fixed in <code>data/overrides.json</code>.</p>
+      </div>
+    </section>
+  </main>
+
+  <template id="change-template">
+    <article class="change-card">
+      <div class="change-head"><h3></h3><span class="pill"></span></div>
+      <p class="reason"></p>
+      <details>
+        <summary>Why Riot changed it</summary>
+        <p class="riot-statement"></p>
+        <ul class="details-list"></ul>
+      </details>
+    </article>
+  </template>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
