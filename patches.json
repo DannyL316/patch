@@ -1,0 +1,101 @@
+{
+  "updatedAt": "2026-10-01T14:40:00.000Z",
+  "windowSize": 5,
+  "patches": [
+    {
+      "patch": "26.19",
+      "date": "2026-09-22",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-19-notes/",
+      "changes": [
+        {"champion":"Aatrox","classification":"buff","reason":"Sundered Sky nerfs indirectly cost Aatrox power, so Riot restored some durability and uptime.","riotStatement":"Riot says Aatrox lost power from Sundered Sky changes and is getting a bump.","details":["W cooldown reduced at early ranks.","E healing from bonus health increased."]},
+        {"champion":"Aphelios","classification":"buff","reason":"Riot wanted to improve an underperforming hypercarry in an enchanter-friendly meta.","riotStatement":"Riot describes this as a broad boost to help Aphelios step back into the spotlight.","details":["Calibrum damage increased.","Severum healing increased.","Gravitum slow floor improved.","Infernum cooldown reduced.","Crescendum damage improved."]},
+        {"champion":"Aurora","classification":"buff","reason":"Rocketbelt nerfs left Aurora weaker, so Riot added waveclear and ultimate outplay power.","riotStatement":"Riot says Aurora is receiving more waveclear and ultimate outplay potential.","details":["E base damage increased.","R duration increased at ranks 1-2."]},
+        {"champion":"Draven","classification":"buff","reason":"Bot-lane role quest gold reduced the relative value of Draven's Adoration advantage.","riotStatement":"Riot says it is tapping up Draven's early-game damage.","details":["Base attack damage increased from 62 to 64."]},
+        {"champion":"Elise","classification":"buff","reason":"Elise had been weak compared with stronger AP junglers.","riotStatement":"Riot says it is helping Elise's clear speed and damage.","details":["Spider-form passive on-hit damage increased.","W bonus attack speed increased."]},
+        {"champion":"Fiora","classification":"buff","reason":"Riot wanted Fiora to be rewarded more after successfully finding an opening.","riotStatement":"Riot says Fiora has room to shine more after succeeding in a fight.","details":["Health growth increased.","R heal range and healing increased."]},
+        {"champion":"Kha'Zix","classification":"buff","reason":"Kha'Zix was only on the fringe of the jungle meta after Sundered Sky users fell back.","riotStatement":"Riot says it is buffing weaker evolves to increase Kha'Zix's flexibility.","details":["Passive damage increased.","Evolved W slow lasts longer.","Evolved E range increased."]},
+        {"champion":"Lillia","classification":"buff","reason":"Riot wanted more survivability and stronger playmaking at higher levels.","riotStatement":"Riot says it is helping Lillia's durability and making her ultimate more rewarding.","details":["Armor increased.","R sleep duration increased."]},
+        {"champion":"Lucian","classification":"adjustment","reason":"Power shifted away from Vigilance and into Q to rebalance mid and bot Lucian.","riotStatement":"Riot describes this as retuning Vigilance while giving power elsewhere.","details":["Passive empowered hit damage reduced.","Q base damage increased."]},
+        {"champion":"Master Yi","classification":"buff","reason":"A previous Rageblade interaction hurt Yi more than other users, so his Q cooldown refund penalty was removed.","riotStatement":"Riot says this should mostly help non-SR modes but is still a mechanical buff.","details":["Q on-hit cooldown refund no longer scales down with ability haste."]},
+        {"champion":"Nasus","classification":"nerf","reason":"Nasus was becoming too reliable at reaching strong stacking breakpoints.","riotStatement":"Riot says higher highs are being offset by lower early-game power.","details":["Q base bonus damage reduced."]},
+        {"champion":"Nocturne","classification":"nerf","reason":"Nocturne remained strong in both pro and solo queue.","riotStatement":"Riot targets his map presence by increasing ultimate cooldown.","details":["R cooldown increased."]},
+        {"champion":"Poppy","classification":"nerf","reason":"Riot wanted to reduce Poppy's jungle flex strength and counterpick pressure.","riotStatement":"Riot says it is reverting a previous jungle-clear buff.","details":["Q minion/monster health cap reduced."]},
+        {"champion":"Rumble","classification":"adjustment","reason":"High-level lane power was reduced while jungle compensation was added.","riotStatement":"Riot describes this as a pro-focused passive modification with jungle compensation.","details":["Overheat attack speed reduced.","Monster damage cap increased."]},
+        {"champion":"Ryze","classification":"adjustment","reason":"Riot reduced elite-skewed damage and mana efficiency while adding armor growth.","riotStatement":"Riot says it is restraining Ryze while helping some difficult solo-queue matchups.","details":["Armor growth increased.","Q flux bonus damage reduced.","E mana cost increased."]},
+        {"champion":"Vi","classification":"nerf","reason":"Vi had been a long-running meta staple and remained durable after item changes.","riotStatement":"Riot says it is reducing durability and early clear reliability.","details":["Base AD reduced but growth increased.","Passive shield reduced."]},
+        {"champion":"Volibear","classification":"buff","reason":"Both AD and AP Volibear remained weak despite earlier buffs.","riotStatement":"Riot says it is tuning up both AD and AP builds.","details":["Passive AP attack-speed scaling increased.","Passive gained bonus-AD scaling."]}
+      ]
+    },
+    {
+      "patch": "26.18",
+      "date": "2026-09-09",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-18-notes/",
+      "changes": [
+        {"champion":"Bard","classification":"nerf","reason":"Bard's durability was too high for his mobility and utility.","riotStatement":"Riot says it is targeting Bard's durability after earlier damage reductions.","details":["Base armor and armor growth reduced."]},
+        {"champion":"Cassiopeia","classification":"adjustment","reason":"Early laning power was reduced while some AP scaling was returned.","riotStatement":"Riot explicitly describes these as adjustments aimed at reducing pro skew.","details":["Multiple base values and costs reduced or increased.","Several AP ratios increased."]},
+        {"champion":"Ekko","classification":"buff","reason":"Ekko had settled into a slightly weak state, particularly in mid.","riotStatement":"Riot says Ekko has room for power without buffing his Hail of Blades pattern.","details":["Q mana cost reduced.","Q return AP ratio increased."]},
+        {"champion":"Kassadin","classification":"buff","reason":"Kassadin had not recovered from earlier nerfs.","riotStatement":"Riot says Q should scale harder and Riftwalk should offer more early agency.","details":["Q AP ratio increased.","R early base damage increased."]},
+        {"champion":"Master Yi","classification":"buff","reason":"Rageblade-related changes hit Yi especially hard and his melee-carry scaling was weak.","riotStatement":"Riot says Yi is being buffed back up.","details":["Armor growth increased.","R movement speed increased."]},
+        {"champion":"Nautilus","classification":"nerf","reason":"Nautilus had remained near the top of the support meta for most of the year.","riotStatement":"Riot says nerfing Nautilus should create more support variety.","details":["Base AD reduced.","Q damage reduced at later ranks."]},
+        {"champion":"Seraphine","classification":"nerf","reason":"Bot-lane Seraphine remained frustrating and too effective.","riotStatement":"Riot says it is targeting bot Seraphine through E rank-up cooldown.","details":["E cooldown no longer decreases with rank."]},
+        {"champion":"Syndra","classification":"nerf","reason":"Syndra overperformed in specific solo-queue settings.","riotStatement":"Riot says W and mana breakpoints are being tapped down.","details":["Passive mana reduced.","W cooldown increased."]},
+        {"champion":"Viego","classification":"buff","reason":"Viego's win rate and player interest had been declining.","riotStatement":"Riot says Viego has room for general power and bruiser-build viability.","details":["AD growth increased.","Passive healing gained additional scaling hooks."]},
+        {"champion":"Zaahen","classification":"buff","reason":"A resurrection interaction made Q feel worse, and Q2 damage had room to increase.","riotStatement":"Riot says it is using a QoL fix as an opportunity to give Zaahen some love.","details":["Q cooldown behavior improved around resurrection.","Q2 base damage increased."]},
+        {"champion":"Zeri","classification":"nerf","reason":"Recent item buffs pushed Zeri above her intended power level.","riotStatement":"Riot says it is pulling power from burst and waveclear.","details":["W AD scaling reduced."]}
+      ]
+    },
+    {
+      "patch": "26.17",
+      "date": "2026-08-25",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-17-notes/",
+      "changes": [
+        {"champion":"Aurelion Sol","classification":"buff","reason":"Aurelion Sol came out weaker after the prior mage adjustments.","riotStatement":"Riot says it is giving him a buff, especially to W availability.","details":["Q mana cost reduced.","W cooldown reduced at later ranks."]},
+        {"champion":"Cho'Gath","classification":"buff","reason":"Recent rune/item nerfs weakened Cho'Gath's early game.","riotStatement":"Riot says it is restoring some early auto-attack damage.","details":["E base damage increased."]},
+        {"champion":"Graves","classification":"nerf","reason":"Several indirect buffs had pushed Graves too high.","riotStatement":"Riot says it is softening his snowballing with high-AD builds.","details":["Q bonus-AD ratios reduced."]},
+        {"champion":"Irelia","classification":"buff","reason":"Irelia was too dependent on snowballing and failed to scale into a carry threat.","riotStatement":"Riot says it is improving her carry scaling.","details":["Q AD ratio increased.","W and R AP ratios increased."]},
+        {"champion":"LeBlanc","classification":"buff","reason":"Old Statikk-driven attack-speed constraints were no longer needed and AP assassination had room for power.","riotStatement":"Riot says it is restoring a more normal attack-speed baseline and buffing AP ratios.","details":["Attack speed ratio increased while growth decreased.","W and RW AP ratios increased."]},
+        {"champion":"Nasus","classification":"nerf","reason":"Top Nasus benefited too much from the new stacking paradigm.","riotStatement":"Riot says it is tapping down top-specific sustain.","details":["Passive lifesteal reduced."]},
+        {"champion":"Nocturne","classification":"nerf","reason":"Nocturne remained strong across skill levels.","riotStatement":"Riot says it wants more personal risk around his level-six spike.","details":["Armor and health reduced."]},
+        {"champion":"Qiyana","classification":"adjustment","reason":"Mid Qiyana gained damage while jungle clear efficiency was reduced.","riotStatement":"Riot says it wants to support jungle Qiyana without leaving mid underwhelming.","details":["Q champion damage increased.","Q monster modifier reduced."]},
+        {"champion":"Thresh","classification":"nerf","reason":"Thresh had quietly reached a high win rate and rising play rate.","riotStatement":"Riot taps down Flay damage.","details":["E active base damage and AP ratio reduced."]},
+        {"champion":"Trundle","classification":"buff","reason":"Trundle's personal damage had fallen behind his utility.","riotStatement":"Riot says his personal clubbing power is too weak.","details":["W attack speed increased at ranks 2-5."]},
+        {"champion":"Vayne","classification":"nerf","reason":"Riot prioritized reducing top-lane Vayne power despite small base-stat compensation.","riotStatement":"Riot says the goal is to constrain top-lane power more than bot-lane power.","details":["Some early base stats improved.","Q mana cost increased early.","W damage reduced early."]},
+        {"champion":"Xerath","classification":"nerf","reason":"Xerath was slightly too strong in both mid and bot.","riotStatement":"Riot calls for a light nerf due to power and regional ban rates.","details":["Health reduced.","Q base damage reduced."]},
+        {"champion":"Yasuo","classification":"buff","reason":"Yasuo was too snowball-dependent instead of scaling reliably as a carry.","riotStatement":"Riot says it is reducing his critical-strike damage penalty.","details":["Critical-strike damage penalty reduced from 10% to 5%."]},
+        {"champion":"Yone","classification":"buff","reason":"Yone had a similar snowball-dependence problem to Yasuo.","riotStatement":"Riot applies the same crit-scaling improvement to Yone.","details":["Critical-strike damage penalty reduced from 10% to 5%."]}
+      ]
+    },
+    {
+      "patch": "26.16",
+      "date": "2026-08-11",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-16-notes/",
+      "changes": [
+        {"champion":"Azir","classification":"buff","reason":"Azir still needed laning help while Riot monitored his keystone choices.","riotStatement":"Riot calls this a moderate laning buff.","details":["Q base damage increased."]},
+        {"champion":"Bel'Veth","classification":"nerf","reason":"Bel'Veth's late-game scaling was rising too sharply after her update.","riotStatement":"Riot says it is making the late game less sharp.","details":["Health growth reduced.","R true-form attack-speed curve reduced late."]},
+        {"champion":"Camille","classification":"adjustment","reason":"Support roaming power was reduced while top-lane repeat trading was improved.","riotStatement":"Riot explicitly frames this as a role-shifting change rather than a clean buff.","details":["Mana increased.","Passive shield early value reduced but cooldown improved.","W cooldown and outer-cone damage improved."]},
+        {"champion":"Gwen","classification":"buff","reason":"Gwen remained slightly weak after earlier nerfs.","riotStatement":"Riot says it is buffing passive sustain.","details":["Passive healing against champions increased."]},
+        {"champion":"Kennen","classification":"buff","reason":"Rocketbelt changes left Kennen weaker than intended.","riotStatement":"Riot says it is compensating Kennen and rewarding strong ultimate flanks.","details":["R resistances and damage increased."]},
+        {"champion":"Nasus","classification":"adjustment","reason":"Stack generation was shifted to bring top and jungle closer together.","riotStatement":"Riot describes this as a role-power adjustment.","details":["Normal Q stacks increased.","Large-target stacks reduced."]},
+        {"champion":"Poppy","classification":"adjustment","reason":"Power moved away from early AD-fighter patterns toward tank scaling.","riotStatement":"Riot says it is shifting power rather than simply increasing it.","details":["Base AD and Q AD ratio reduced.","Mana, regen, tank scaling and monster cap improved."]}
+      ]
+    },
+    {
+      "patch": "26.15",
+      "date": "2026-07-28",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-15-notes/",
+      "changes": [
+        {"champion":"Alistar","classification":"buff","reason":"The loss of mobility-focused boots left Alistar unable to compete in a roaming-support meta.","riotStatement":"Riot says Alistar is too constrained and should excel in this meta.","details":["Move speed increased from 330 to 335."]},
+        {"champion":"Bel'Veth","classification":"adjustment","reason":"A large patchwork shifted power from early invading into scaling and evolution.","riotStatement":"Riot says it is moving early-game power into mid/late-game scaling.","details":["Broad base-stat, passive, Q, W, E and R changes."]},
+        {"champion":"Kai'Sa","classification":"buff","reason":"Kai'Sa remained weaker than expected despite a recent buff, especially late game.","riotStatement":"Riot says it is tapping up her scaling.","details":["Passive Caustic Wounds scaling increased."]},
+        {"champion":"Locke","classification":"nerf","reason":"Locke's early game and W-second-max safety were too strong.","riotStatement":"Riot says it is continuing nerfs as players climb his mastery curve.","details":["Health reduced.","Q damage reduced.","W movement speed and grey-health values reduced."]},
+        {"champion":"Maokai","classification":"buff","reason":"Maokai had faded out of top and jungle, with Riot focusing on jungle viability.","riotStatement":"Riot says it is mainly buffing Maokai jungle.","details":["Q monster damage modifier increased.","Q AP ratio increased."]},
+        {"champion":"Mordekaiser","classification":"adjustment","reason":"A previous R buff was reverted while E uptime improved; Riot expected a net positive versus 26.13, but the patch itself is mixed.","riotStatement":"Riot says the combined state should be net positive versus 26.13.","details":["E cooldown reduced.","R stolen stats reduced."]},
+        {"champion":"Naafiri","classification":"nerf","reason":"Naafiri remained too strong in solo queue and pro play.","riotStatement":"Riot says it is reducing her repeated-ultimate snowball power.","details":["R damage and packmate damage reduced."]},
+        {"champion":"Riven","classification":"nerf","reason":"New item synergy pushed Riven above target power.","riotStatement":"Riot targets Riven's R AD scaling to reduce snowballing.","details":["R bonus AD ratio reduced.","Wind Slash AD ratio reduced."]},
+        {"champion":"Sylas","classification":"nerf","reason":"A prior buff overshot Riot's intended target.","riotStatement":"Riot says it is pulling back his lane bullying.","details":["Q first-hit damage and AP ratio reduced."]},
+        {"champion":"Volibear","classification":"buff","reason":"Volibear had been weak for multiple patches after direct and systemic changes.","riotStatement":"Riot says it is giving Volibear more chances to close gaps.","details":["Q cooldown reduced at early ranks."]},
+        {"champion":"Zac","classification":"buff","reason":"Zac's jungle presence had dropped and Riot wanted to improve ganks and durability.","riotStatement":"Riot says these changes should help Zac execute his unique gank angles.","details":["Armor growth increased.","E cooldown reduced."]}
+      ]
+    }
+  ]
+}

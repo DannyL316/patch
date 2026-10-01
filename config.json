@@ -1,0 +1,6 @@
+{
+  "windowSize": 5,
+  "defaultBuffThreshold": 2,
+  "countOnlyDirectChampionChanges": true,
+  "classificationPolicy": "conservative"
+}
