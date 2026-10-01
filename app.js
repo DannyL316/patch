@@ -1,4 +1,4 @@
-const state = { data: null, threshold: 2, sort: 'buffs', patch: null, patchFilter: 'all' };
+const state = { data: null, threshold: 2, sort: 'buffs', patch: null, patchFilter: 'all', championIcons: new Map() };
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => [...document.querySelectorAll(s)];
 
@@ -7,6 +7,7 @@ async function load() {
     fetch('./data/patches.json').then(r => r.json()),
     fetch('./data/config.json').then(r => r.json())
   ]);
+  await loadChampionIcons();
   state.data = data;
   state.threshold = config.defaultBuffThreshold ?? 2;
   $('#threshold').value = state.threshold;
@@ -14,6 +15,49 @@ async function load() {
   renderMeta();
   bind();
   route();
+}
+
+
+async function loadChampionIcons() {
+  try {
+    const versions = await fetch('https://ddragon.leagueoflegends.com/api/versions.json').then(r => {
+      if (!r.ok) throw new Error('Could not load Data Dragon versions');
+      return r.json();
+    });
+    const version = versions[0];
+    const champions = await fetch(`https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`).then(r => {
+      if (!r.ok) throw new Error('Could not load champion data');
+      return r.json();
+    });
+    for (const champion of Object.values(champions.data || {})) {
+      state.championIcons.set(champion.name, `https://ddragon.leagueoflegends.com/cdn/${version}/img/champion/${champion.image.full}`);
+    }
+  } catch (err) {
+    // Icons are enhancement-only: the tracker should still work if Riot's CDN is unavailable.
+    console.warn('Champion icons unavailable:', err);
+  }
+}
+
+function championIcon(name, className = '') {
+  const wrap = document.createElement('span');
+  wrap.className = `champion-icon ${className}`.trim();
+  const url = state.championIcons.get(name);
+  if (url) {
+    const img = document.createElement('img');
+    img.src = url;
+    img.alt = `${name} icon`;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.addEventListener('error', () => {
+      wrap.textContent = name.slice(0, 1).toUpperCase();
+      wrap.classList.add('fallback');
+    }, { once: true });
+    wrap.append(img);
+  } else {
+    wrap.textContent = name.slice(0, 1).toUpperCase();
+    wrap.classList.add('fallback');
+  }
+  return wrap;
 }
 
 function renderMeta() {
@@ -72,13 +116,14 @@ function renderStrong() {
     const card = document.createElement('article'); card.className = 'champion-card';
     const perPatch = state.data.patches.slice().reverse().map(p => row.changes.find(c => c.patch===p.patch));
     card.innerHTML = `
-      <div class="champion-card-top"><div><h3>${escapeHtml(row.champion)}</h3><span class="muted">Direct SR balance changes</span></div><div class="score">${row.buffs.length} / ${state.data.windowSize} buffs</div></div>
+      <div class="champion-card-top"><div class="champion-summary"><span class="champion-icon-slot"></span><div><h3>${escapeHtml(row.champion)}</h3><span class="muted">Direct SR balance changes</span></div></div><div class="score">${row.buffs.length} / ${state.data.windowSize} buffs</div></div>
       <div class="patch-strip">${state.data.patches.slice().reverse().map((p,i)=>{
         const c = perPatch[i]; const cls = c?.classification || '';
         const symbol = cls==='buff'?'↑':cls==='nerf'?'↓':cls==='adjustment'?'↔':'—';
         return `<div class="patch-dot ${cls}" title="${p.patch}: ${cls||'no direct change'}"><strong>${symbol}</strong><br>${p.patch}</div>`;
       }).join('')}</div>
       <p class="latest-reason"><strong>Latest buff (${row.latestBuff.patch}):</strong> ${escapeHtml(row.latestBuff.reason)}</p>`;
+    card.querySelector('.champion-icon-slot').replaceWith(championIcon(row.champion, 'large'));
     card.addEventListener('click', () => { location.hash = 'patches'; state.patch = row.latestBuff.patch; setTimeout(renderPatches,0); });
     grid.append(card);
   }
@@ -106,6 +151,7 @@ function renderPatches() {
 function renderChange(change) {
   const node = $('#change-template').content.firstElementChild.cloneNode(true);
   node.querySelector('h3').textContent = change.champion;
+  node.querySelector('.champion-icon-slot').replaceWith(championIcon(change.champion, 'small'));
   const pill = node.querySelector('.pill'); pill.textContent = change.classification; pill.classList.add(change.classification);
   node.querySelector('.reason').textContent = change.reason;
   node.querySelector('.riot-statement').textContent = change.riotStatement;
