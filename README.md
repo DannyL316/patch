@@ -38,4 +38,4 @@ The seeded data contains original short summaries of Riot's balance intent and d
 
 ## Current seeded window
 
-Patch 26.15 through 26.19, current as of October 1, 2026.
+Patch 26.16 through 26.20, current as of October 7, 2026.
