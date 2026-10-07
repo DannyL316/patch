@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T12:15:24.682Z",
+  "updatedAt": "2026-10-07T12:16:17.587Z",
   "windowSize": 5,
   "patches": [
     {
@@ -9,60 +9,60 @@
       "changes": [
         {
           "champion": "Ambessa",
-          "classification": "review",
-          "reason": "Ambessa has been too reliable in her late game output for players with high mastery in all brackets, but especially pro-play.",
-          "riotStatement": "Riot's intent: Ambessa has been too reliable in her late game output for players with high mastery in all brackets, but especially pro-play.",
+          "classification": "nerf",
+          "reason": "Key changes: Damage reduced.",
+          "riotStatement": "Riot says Ambessa is too strong or reliable and is being toned down in the late game.",
           "details": [
             "Damage: 5 - 30 (+25% bonus AD) ⇒ 5 - 25 (+20% bonus AD)"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Ashe",
-          "classification": "review",
-          "reason": "Ashe is one of the premier marksmen in pro play at the moment, and we're seeing her output too much raw damage given her position as the highest utility marksman in the game.",
-          "riotStatement": "Riot's intent: Ashe is one of the premier marksmen in pro play at the moment, and we're seeing her output too much raw damage given her position as the highest utility marksman in the game.",
+          "classification": "nerf",
+          "reason": "Key changes: Attack Damage growth reduced.",
+          "riotStatement": "Riot says Ashe is too strong or reliable and is being toned down around high-level and pro play.",
           "details": [
             "Attack Damage per Level: 3.5 ⇒ 3"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Cassiopeia",
-          "classification": "review",
-          "reason": "Our changes two patches ago to Cassiopeia have been pretty good directionally, with most players being proportionally less impacted from those adjustments than pros.",
-          "riotStatement": "Riot's intent: Our changes two patches ago to Cassiopeia have been pretty good directionally, with most players being proportionally less impacted from those adjustments than pros.",
+          "classification": "nerf",
+          "reason": "Key changes: Base Health reduced; Base Mana reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Cassiopeia's power in the early game.",
           "details": [
             "Base Health: 630 ⇒ 610",
             "Base Mana: 480 ⇒ 450"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Diana",
-          "classification": "review",
-          "reason": "While Diana's assassin build shines, her bruiser builds tend to be lagging a good bit behind.",
-          "riotStatement": "Riot's intent: While Diana's assassin build shines, her bruiser builds tend to be lagging a good bit behind.",
+          "classification": "buff",
+          "reason": "Key changes: Shield Bonus Health Ratio improved.",
+          "riotStatement": "Riot says Diana has lost or lacks power and is being strengthened.",
           "details": [
             "Shield Bonus Health Ratio: 11% ⇒ 14%"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Kennen",
-          "classification": "review",
-          "reason": "Stacking the odds a bit more in his favor with his signature spell (in Riftbound) and offsetting Rocketbelt changes that he'll be a bit less excited about.",
-          "riotStatement": "Riot's intent: Stacking the odds a bit more in his favor with his signature spell (in Riftbound) and offsetting Rocketbelt changes that he'll be a bit less excited about.",
+          "classification": "buff",
+          "reason": "Key changes: Bonus Attack Speed improved.",
+          "riotStatement": "Riot says Kennen has lost or lacks power and is being strengthened.",
           "details": [
             "Bonus Attack Speed: 40 / 50 / 60 / 70 / 80% ⇒ 50 / 60 / 70 / 80 / 90%"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Kindred",
           "classification": "buff",
-          "reason": "Kindred is currently a bit weak, so we're giving them buffs in areas that won't make them much more overwhelming in early invades.",
-          "riotStatement": "Riot's intent: Kindred is currently a bit weak, so we're giving them buffs in areas that won't make them much more overwhelming in early invades.",
+          "reason": "Key changes: Monster Mod improved; Slow Duration improved.",
+          "riotStatement": "Riot says Kindred has lost or lacks power and is being strengthened.",
           "details": [
             "Monster Mod: 150% ⇒ 165%",
             "Slow Duration: 1s ⇒ 1.5s",
@@ -72,62 +72,62 @@
         },
         {
           "champion": "K'Sante",
-          "classification": "review",
-          "reason": "Warding off this warden from being as reliable as a blind pick in coordinated play - hurting early mana and consistent W damage reduction, which should be skewed for elite audiences.",
-          "riotStatement": "Riot's intent: Warding off this warden from being as reliable as a blind pick in coordinated play - hurting early mana and consistent W damage reduction, which should be skewed for elite audiences.",
+          "classification": "nerf",
+          "reason": "Key changes: Mana Cost reduced; W Base/All-Out Damage Reduction reduced.",
+          "riotStatement": "Riot's stated goal is to reduce K'Sante's power around high-level and pro play.",
           "details": [
             "Mana Cost: 40 / 45 / 50 / 55 / 60 ⇒ 45 / 50 / 55 / 60 / 65",
             "W Base/All-Out Damage Reduction: 30 / 75% ⇒ 25 / 70%"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Lillia",
-          "classification": "review",
-          "reason": "Last patch we looked to inject a bit more power into the deer, but didn't quite see the movement we were looking for.",
-          "riotStatement": "Riot's intent: Last patch we looked to inject a bit more power into the deer, but didn't quite see the movement we were looking for.",
+          "classification": "buff",
+          "reason": "Key changes: Duration improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Lillia.",
           "details": [
             "Duration: 2.5s ⇒ 2.5 / 2.75 / 3s"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Lucian",
-          "classification": "review",
-          "reason": "Last patch's adjustment to help normalize mid and bot performance ended up landing as a nerf for bot lane, so we're following up with a buff to make up for the lost power.",
-          "riotStatement": "Riot's intent: Last patch's adjustment to help normalize mid and bot performance ended up landing as a nerf for bot lane, so we're following up with a buff to make up for the lost power.",
+          "classification": "buff",
+          "reason": "Key changes: Attack Damage improved.",
+          "riotStatement": "Riot says Lucian has lost or lacks power and is being strengthened with bot-lane performance in mind.",
           "details": [
             "Attack Damage: 60 + 2.5/Level ⇒ 60 + 2.9/Level"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Mordekaiser",
-          "classification": "review",
-          "reason": "Windows between Mordekaiser's ultimates make it hard to keep up with the pace of much of his opposition.",
-          "riotStatement": "Riot's intent: Windows between Mordekaiser's ultimates make it hard to keep up with the pace of much of his opposition.",
+          "classification": "buff",
+          "reason": "Key changes: Scaling Level 10-20 improved; Cooldown improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Mordekaiser.",
           "details": [
             "Scaling Level 10-20: (+5/lvl) ⇒ (+7/lvl)",
             "Cooldown: 140 / 120 / 100s ⇒ 120 / 110 / 100s"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Neeko",
-          "classification": "review",
-          "reason": "Rocketbelt's adjustment this patch will probably land as a small nerf for Neeko, so we're giving her some minor compensation",
-          "riotStatement": "Riot's intent: Rocketbelt's adjustment this patch will probably land as a small nerf for Neeko, so we're giving her some minor compensation",
+          "classification": "buff",
+          "reason": "Key changes: Base Damage improved; Empowered Root Duration improved.",
+          "riotStatement": "Riot says Neeko has lost or lacks power and is being strengthened.",
           "details": [
             "Base Damage: 70 / 105 / 140 / 175 / 210 (+65% AP) ⇒ 80 / 115 / 150 / 185 / 220 (+65% AP)",
             "Empowered Root Duration: 1.8 / 2.1 / 2.4 / 2.7 / 3s ⇒ 2 / 2.25 / 2.5 / 2.75 / 3s"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Smolder",
-          "classification": "nerf",
-          "reason": "Smolder has lost quite a bit of power over the last few patches, with the Cleaver ranged nerf and bot lane meta changes disfavoring him significantly.",
-          "riotStatement": "Riot's intent: Smolder has lost quite a bit of power over the last few patches, with the Cleaver ranged nerf and bot lane meta changes disfavoring him significantly.",
+          "classification": "buff",
+          "reason": "Key changes: self-healing improved.",
+          "riotStatement": "Riot says Smolder has lost or lacks power and is being strengthened with a focus on crit builds.",
           "details": [
             "Super Scorcher Bonus Magic Damage: 25 - 55% (+0-9% with IE) of Dragon Practice Stacks, scaling with Crit Chance ⇒ 25 - 60% (+0-10.5% with IE) of Dragon Practice Stacks, scaling with Crit Chance",
             "Flap Flap Flap Bonus Magic Damage: 8 - 12.8% (+0-1.44% with IE) of Dragon Practice Stacks, scaling with Crit Chance ⇒ 8 - 14% (+0-1.8% with IE) of Dragon Practice Stacks, scaling with Crit Chance",
@@ -137,555 +137,631 @@
         },
         {
           "champion": "Swain",
-          "classification": "review",
-          "reason": "We're giving Swain mid a moderate buff this patch while also making an adjustment that should help normalize his mid and bot lane performance.",
-          "riotStatement": "Riot's intent: We're giving Swain mid a moderate buff this patch while also making an adjustment that should help normalize his mid and bot lane performance.",
+          "classification": "buff",
+          "reason": "Key changes: Base Magic Resistance improved; Base Armor reduced; Damage improved, plus 1 other change.",
+          "riotStatement": "Riot's stated goal is to strengthen Swain with bot-lane performance in mind.",
           "details": [
             "Base Magic Resistance: 31 ⇒ 34",
             "Base Armor: 25 ⇒ 23",
             "Damage: 70 / 105 / 140 / 175 / 210 (+60%) ⇒ 70 / 115 / 160 / 205 / 250 (+60%)",
             "Cooldown: 22 / 21 / 20 / 19 / 18s ⇒ 20 / 19 / 18 / 17 / 16s"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Tahm Kench",
-          "classification": "review",
-          "reason": "As one of the tank supports with the lowest health regen, and many health scaling values on his abilities, Tahm Kench lost out on the recent adjustments to the support item.",
-          "riotStatement": "Riot's intent: As one of the tank supports with the lowest health regen, and many health scaling values on his abilities, Tahm Kench lost out on the recent adjustments to the support item.",
+          "classification": "buff",
+          "reason": "Key changes: base healing improved.",
+          "riotStatement": "Riot says Tahm Kench has lost or lacks power and is being strengthened.",
           "details": [
             "Base Healing: 10 / 13.75 / 17.5 / 21.25 / 25 ⇒ 10 / 20 / 30 / 40 / 50"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Vayne",
-          "classification": "review",
-          "reason": "Vayne has settled into a fairly weak spot, and while we still aren't totally happy with her top vs bot skew, we're getting closer.",
-          "riotStatement": "Riot's intent: Vayne has settled into a fairly weak spot, and while we still aren't totally happy with her top vs bot skew, we're getting closer.",
+          "classification": "buff",
+          "reason": "Riot increased this champion’s direct Summoner’s Rift power.",
+          "riotStatement": "Riot says Vayne has lost or lacks power and is being strengthened with bot-lane performance in mind.",
           "details": [
             "Health per 5: 4 + .5/Level ⇒ 5.5 +.4/Level",
             "Mana Cost: 46 / 42 / 38 / 34 / 30 ⇒ 30"
           ],
-          "needsReview": true
+          "needsReview": false
         },
         {
           "champion": "Yunara",
-          "classification": "review",
-          "reason": "Yunara is the leading candidate for \"handshake hyperscaler do nothing\" and we want to avoid that becoming the dominant meta, especially heading into worlds.",
-          "riotStatement": "Riot's intent: Yunara is the leading candidate for \"handshake hyperscaler do nothing\" and we want to avoid that becoming the dominant meta, especially heading into worlds.",
+          "classification": "nerf",
+          "reason": "Key changes: Passive On Hit Damage reduced; Active On Hit Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Yunara's power around high-level and pro play.",
           "details": [
             "Passive On Hit Damage: 5 / 10 / 15 / 20 / 25 (+20% AP) ⇒ 3 / 8 / 13 / 18 / 23 (+20% AP)",
             "Active On Hit Damage: 5 / 10 / 15 / 20 / 25 (+20% AP) ⇒ 3 / 8 / 13 / 18 / 23 (+20% AP)",
             "Slow Stacking: Stacks with other slows ⇒ No longer stacks with other slows"
           ],
-          "needsReview": true
+          "needsReview": false
         }
       ]
     },
     {
       "patch": "26.19",
       "date": "2026-09-22",
-      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-19-notes/",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-19-notes",
       "changes": [
         {
           "champion": "Aatrox",
           "classification": "buff",
-          "reason": "Sundered Sky nerfs indirectly cost Aatrox power, so Riot restored some durability and uptime.",
-          "riotStatement": "Riot says Aatrox lost power from Sundered Sky changes and is getting a bump.",
+          "reason": "Key changes: Cooldown improved; Health Heal Ratio improved.",
+          "riotStatement": "Riot says Aatrox has lost or lacks power and is being strengthened with a focus on jungle performance.",
           "details": [
-            "W cooldown reduced at early ranks.",
-            "E healing from bonus health increased."
-          ]
+            "Cooldown: 20 / 18 / 16 / 14 / 12 seconds ⇒ 18 / 16.5 / 15 / 13.5 / 12 seconds",
+            "Health Heal Ratio: 1.1% per 100 bonus health ⇒ 1.3% per 100 bonus health"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Aphelios",
           "classification": "buff",
-          "reason": "Riot wanted to improve an underperforming hypercarry in an enchanter-friendly meta.",
-          "riotStatement": "Riot describes this as a broad boost to help Aphelios step back into the spotlight.",
+          "reason": "Key changes: Moonshot Damage improved; Healing improved; Slow improved, plus 2 other changes.",
+          "riotStatement": "Riot's stated goal is to strengthen Aphelios.",
           "details": [
-            "Calibrum damage increased.",
-            "Severum healing increased.",
-            "Gravitum slow floor improved.",
-            "Infernum cooldown reduced.",
-            "Crescendum damage improved."
-          ]
+            "Moonshot Damage: 70 - 160 (+42 - 60% bonus AD) (+100% AP) ⇒ 80 - 170 (+42 - 60% bonus AD) (+100% AP)",
+            "Healing: 2 - 7.1%, increased to 5 - 17.75% ⇒ 2 - 8%, increased to 5 - 20%",
+            "Slow: 30% for 2.5 seconds, decaying to 10% after 0.7 seconds ⇒ 30% for 2.5 seconds, decaying to 15% after 0.7 seconds",
+            "Duskwave Cooldown: 9 / 8.25 / 7.5 / 6.75 / 6 seconds ⇒ 8 / 7.25 / 6.5 / 5.75 / 5 seconds",
+            "Mini-Crescendum Damage: 15% AD, decreasing by 1.5% AD to a minimum of 5% AD for the 8th+ chakram ⇒ 16% AD, decreasing by 1.5% AD to a minimum of 5% AD for the 9th+ chakram"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Aurora",
           "classification": "buff",
-          "reason": "Rocketbelt nerfs left Aurora weaker, so Riot added waveclear and ultimate outplay power.",
-          "riotStatement": "Riot says Aurora is receiving more waveclear and ultimate outplay potential.",
+          "reason": "Key changes: Base Damage improved; Rift Duration improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Aurora.",
           "details": [
-            "E base damage increased.",
-            "R duration increased at ranks 1-2."
-          ]
+            "Base Damage: 70 / 110 / 150 / 190 / 230 ⇒ 80 / 120 / 160 / 200 / 240",
+            "Rift Duration: 1.75 / 2.5 / 3.25 seconds ⇒ 2.25 / 2.75 / 3.25 seconds"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Draven",
           "classification": "buff",
-          "reason": "Bot-lane role quest gold reduced the relative value of Draven's Adoration advantage.",
-          "riotStatement": "Riot says it is tapping up Draven's early-game damage.",
+          "reason": "Key changes: Attack Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Draven with bot-lane performance in mind.",
           "details": [
-            "Base attack damage increased from 62 to 64."
-          ]
+            "Attack Damage: 62 ⇒ 64"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Elise",
           "classification": "buff",
-          "reason": "Elise had been weak compared with stronger AP junglers.",
-          "riotStatement": "Riot says it is helping Elise's clear speed and damage.",
+          "reason": "Key changes: Passive Magic Damage On-Hit improved; Bonus Attack Speed improved.",
+          "riotStatement": "Riot says Elise has lost or lacks power and is being strengthened with a focus on jungle performance.",
           "details": [
-            "Spider-form passive on-hit damage increased.",
-            "W bonus attack speed increased."
-          ]
+            "Passive Magic Damage On-Hit: 12 / 22 / 32 / 42 ⇒ 14 / 24 / 34 / 44",
+            "Bonus Attack Speed: 60 / 75 / 90 / 105 / 120% ⇒ 70 / 85 / 100 / 115 / 130%"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Fiora",
           "classification": "buff",
-          "reason": "Riot wanted Fiora to be rewarded more after successfully finding an opening.",
-          "riotStatement": "Riot says Fiora has room to shine more after succeeding in a fight.",
+          "reason": "Key changes: Health Growth improved; Heal Range improved; Heal Per Tick improved, plus 1 other change.",
+          "riotStatement": "Riot's stated goal is to strengthen Fiora.",
           "details": [
-            "Health growth increased.",
-            "R heal range and healing increased."
-          ]
+            "Health Growth: 99 ⇒ 105",
+            "Heal Range: 550 ⇒ 600",
+            "Heal Per Tick: 18.75 / 25 / 31.25 (+15% bonus AD) ⇒ 20 / 26.25 / 32.5 (+17.5% bonus AD)",
+            "Maximum Heal: 375 / 500 / 625 (+300% bonus AD) ⇒ 400 / 525 / 650 (+350% bonus AD)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Kha'Zix",
           "classification": "buff",
-          "reason": "Kha'Zix was only on the fringe of the jungle meta after Sundered Sky users fell back.",
-          "riotStatement": "Riot says it is buffing weaker evolves to increase Kha'Zix's flexibility.",
+          "reason": "Key changes: Damage improved; Evolved Slow Duration improved; Evolved Range Bonus improved.",
+          "riotStatement": "Riot says Kha'Zix has lost or lacks power and is being strengthened with a focus on jungle performance.",
           "details": [
-            "Passive damage increased.",
-            "Evolved W slow lasts longer.",
-            "Evolved E range increased."
-          ]
+            "Damage: 17 - 136 (+50% bonus AD) ⇒ 22 - 141 (+50% bonus AD)",
+            "Evolved Slow Duration: 2 seconds ⇒ 2.25 seconds",
+            "Evolved Range Bonus: +200 ⇒ +300"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Lillia",
           "classification": "buff",
-          "reason": "Riot wanted more survivability and stronger playmaking at higher levels.",
-          "riotStatement": "Riot says it is helping Lillia's durability and making her ultimate more rewarding.",
+          "reason": "Key changes: Armor improved; Sleep Duration improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Lillia.",
           "details": [
-            "Armor increased.",
-            "R sleep duration increased."
-          ]
+            "Armor: 22 ⇒ 24",
+            "Sleep Duration: 2 seconds ⇒ 2.5 seconds"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Lucian",
           "classification": "adjustment",
-          "reason": "Power shifted away from Vigilance and into Q to rebalance mid and bot Lucian.",
-          "riotStatement": "Riot describes this as retuning Vigilance while giving power elsewhere.",
+          "reason": "Key changes: Empowered On-Hit Damage reduced; Base Damage improved.",
+          "riotStatement": "Riot is redistributing Lucian's power with bot-lane performance in mind rather than making a clean one-direction change.",
           "details": [
-            "Passive empowered hit damage reduced.",
-            "Q base damage increased."
-          ]
+            "Empowered On-Hit Damage: 15 (+20% AD) ⇒ 5 (+15% AD)",
+            "Base Damage: 80 / 115 / 150 / 185 / 220 (+100% bonus AD) ⇒ 90 / 130 / 170 / 210 / 250 (+100% bonus AD)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Master Yi",
-          "classification": "buff",
-          "reason": "A previous Rageblade interaction hurt Yi more than other users, so his Q cooldown refund penalty was removed.",
-          "riotStatement": "Riot says this should mostly help non-SR modes but is still a mechanical buff.",
+          "classification": "nerf",
+          "reason": "Key changes: Cooldown Refund on Hit reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Master Yi's power.",
           "details": [
-            "Q on-hit cooldown refund no longer scales down with ability haste."
-          ]
+            "Cooldown Refund on Hit: -1 second, scaling down with Ability Haste ⇒ 1 second"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Nasus",
           "classification": "nerf",
-          "reason": "Nasus was becoming too reliable at reaching strong stacking breakpoints.",
-          "riotStatement": "Riot says higher highs are being offset by lower early-game power.",
+          "reason": "Key changes: Bonus Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Nasus's power.",
           "details": [
-            "Q base bonus damage reduced."
-          ]
+            "Bonus Damage: 40 / 60 / 80 / 100 / 120 ⇒ 30 / 50 / 70 / 90 / 110"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Nocturne",
           "classification": "nerf",
-          "reason": "Nocturne remained strong in both pro and solo queue.",
-          "riotStatement": "Riot targets his map presence by increasing ultimate cooldown.",
+          "reason": "Key changes: Cooldown reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Nocturne's power with a focus on jungle performance.",
           "details": [
-            "R cooldown increased."
-          ]
+            "Cooldown: 140 / 115 / 90 seconds ⇒ 160 / 130 / 100 seconds"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Poppy",
           "classification": "nerf",
-          "reason": "Riot wanted to reduce Poppy's jungle flex strength and counterpick pressure.",
-          "riotStatement": "Riot says it is reverting a previous jungle-clear buff.",
+          "reason": "Key changes: Minion/Monster Maximum Health Cap reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Poppy's power with a focus on jungle performance.",
           "details": [
-            "Q minion/monster health cap reduced."
-          ]
+            "Minion/Monster Maximum Health Cap: 85 / 120 / 155 / 190 / 225 ⇒ 70 / 105 / 140 / 175 / 210"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Rumble",
           "classification": "adjustment",
-          "reason": "High-level lane power was reduced while jungle compensation was added.",
-          "riotStatement": "Riot describes this as a pro-focused passive modification with jungle compensation.",
+          "reason": "Key changes: Overheat Attack Speed reduced; Monster Cap improved.",
+          "riotStatement": "Riot is redistributing Rumble's power with a focus on jungle performance rather than making a clean one-direction change.",
           "details": [
-            "Overheat attack speed reduced.",
-            "Monster damage cap increased."
-          ]
+            "Overheat Attack Speed: 50 - 130% ⇒ 30 - 100%",
+            "Monster Cap: 65 - 150 ⇒ 90 - 175"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Ryze",
           "classification": "adjustment",
-          "reason": "Riot reduced elite-skewed damage and mana efficiency while adding armor growth.",
-          "riotStatement": "Riot says it is restraining Ryze while helping some difficult solo-queue matchups.",
+          "reason": "Key changes: Armor Growth improved; Flux Bonus Damage reduced; Mana Cost reduced.",
+          "riotStatement": "Riot is redistributing Ryze's power rather than making a clean one-direction change.",
           "details": [
-            "Armor growth increased.",
-            "Q flux bonus damage reduced.",
-            "E mana cost increased."
-          ]
+            "Armor Growth: 4.2 ⇒ 4.7",
+            "Flux Bonus Damage: 25 / 50 / 75 / 100% increased damage ⇒ 15 / 40 / 65 / 90% increased damage",
+            "Mana Cost: 35 / 45 / 55 / 65 / 75 ⇒ 40 / 50 / 60 / 70 / 80"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Vi",
           "classification": "nerf",
-          "reason": "Vi had been a long-running meta staple and remained durable after item changes.",
-          "riotStatement": "Riot says it is reducing durability and early clear reliability.",
+          "reason": "Key changes: Shield reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Vi's power.",
           "details": [
-            "Base AD reduced but growth increased.",
-            "Passive shield reduced."
-          ]
+            "Attack Damage: 63 + 3.5/Level ⇒ 61 + 3.9/Level",
+            "Shield: 12% Maximum Health ⇒ 10% Maximum Health"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Volibear",
           "classification": "buff",
-          "reason": "Both AD and AP Volibear remained weak despite earlier buffs.",
-          "riotStatement": "Riot says it is tuning up both AD and AP builds.",
+          "reason": "Key changes: Attack Speed per Stack improved.",
+          "riotStatement": "Riot says Volibear has lost or lacks power and is being strengthened with bot-lane performance in mind.",
           "details": [
-            "Passive AP attack-speed scaling increased.",
-            "Passive gained bonus-AD scaling."
-          ]
+            "Attack Speed per Stack: 5% (+3% per 100 AP) ⇒ 5% (+4% per 100 AP)",
+            "Lightning On-Hit Damage: 11 - 60 (Levels 1-18) (+45% AP) ⇒ 11 - 60 (Levels 1-18) (+45% AP) (+20% bonus AD)"
+          ],
+          "needsReview": false
         }
       ]
     },
     {
       "patch": "26.18",
       "date": "2026-09-09",
-      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-18-notes/",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-18-notes",
       "changes": [
         {
           "champion": "Bard",
           "classification": "nerf",
-          "reason": "Bard's durability was too high for his mobility and utility.",
-          "riotStatement": "Riot says it is targeting Bard's durability after earlier damage reductions.",
+          "reason": "Key changes: Armor reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Bard's power.",
           "details": [
-            "Base armor and armor growth reduced."
-          ]
+            "Armor: 34 + 5/Level ⇒ 32 + 4.7/Level"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Cassiopeia",
           "classification": "adjustment",
-          "reason": "Early laning power was reduced while some AP scaling was returned.",
-          "riotStatement": "Riot explicitly describes these as adjustments aimed at reducing pro skew.",
+          "reason": "Key changes: Move Speed Bonus reduced; Damage reduced; Ability Power Ratio improved, plus 6 other changes.",
+          "riotStatement": "Riot is redistributing Cassiopeia's power with a focus on crit builds rather than making a clean one-direction change.",
           "details": [
-            "Multiple base values and costs reduced or increased.",
-            "Several AP ratios increased."
-          ]
+            "Move Speed Bonus: 6% - 40% (based on level) ⇒ 5% - 36% (based on level)",
+            "Damage: 75 / 110 / 145 / 180 / 215 ⇒ 65 / 100 / 135 / 170 / 205",
+            "Ability Power Ratio: 65% ⇒ 75%",
+            "Mana Cost: 40 ⇒ 45",
+            "Base Ability Power Ratio: 10% ⇒ 20%",
+            "Enhanced Ability Power Ratio: 55% ⇒ 45%",
+            "Total Ability Power Ratio: 65% ⇒ 65%",
+            "Damage: 52 - 120 ⇒ 50 - 120"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Ekko",
           "classification": "buff",
-          "reason": "Ekko had settled into a slightly weak state, particularly in mid.",
-          "riotStatement": "Riot says Ekko has room for power without buffing his Hail of Blades pattern.",
+          "reason": "Key changes: Mana Cost improved; Return Damage Ability Power Ratio improved.",
+          "riotStatement": "Riot says Ekko has lost or lacks power and is being strengthened with mid-lane performance in mind.",
           "details": [
-            "Q mana cost reduced.",
-            "Q return AP ratio increased."
-          ]
+            "Mana Cost: 50 / 60 / 70 / 80 / 90 ⇒ 40 / 50 / 60 / 70 / 80",
+            "Return Damage Ability Power Ratio: 60% ⇒ 70%"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Kassadin",
           "classification": "buff",
-          "reason": "Kassadin had not recovered from earlier nerfs.",
-          "riotStatement": "Riot says Q should scale harder and Riftwalk should offer more early agency.",
+          "reason": "Key changes: Ability Power Ratio improved; Base Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Kassadin in the late game.",
           "details": [
-            "Q AP ratio increased.",
-            "R early base damage increased."
-          ]
+            "Ability Power Ratio: 70% AP ⇒ 80% AP",
+            "Base Damage: 70 / 90 / 110 ⇒ 80 / 95 / 110"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Master Yi",
           "classification": "buff",
-          "reason": "Rageblade-related changes hit Yi especially hard and his melee-carry scaling was weak.",
-          "riotStatement": "Riot says Yi is being buffed back up.",
+          "reason": "Key changes: Armor Growth improved; Move Speed improved.",
+          "riotStatement": "Riot says Master Yi has lost or lacks power and is being strengthened.",
           "details": [
-            "Armor growth increased.",
-            "R movement speed increased."
-          ]
+            "Armor Growth: 33 + 4.5/Level ⇒ 33 + 5/Level",
+            "Move Speed: 35 / 45 / 55% ⇒ 40 / 50 / 60%"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Nautilus",
           "classification": "nerf",
-          "reason": "Nautilus had remained near the top of the support meta for most of the year.",
-          "riotStatement": "Riot says nerfing Nautilus should create more support variety.",
+          "reason": "Key changes: Attack Damage reduced; Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Nautilus's power with top-lane performance in mind.",
           "details": [
-            "Base AD reduced.",
-            "Q damage reduced at later ranks."
-          ]
+            "Attack Damage: 61 + 3.3/Level ⇒ 58 + 3.3/Level",
+            "Damage: 85 / 130 / 175 / 220 / 265 (+90% AP) ⇒ 85 / 125 / 165 / 205 / 245 (+90% AP)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Seraphine",
           "classification": "nerf",
-          "reason": "Bot-lane Seraphine remained frustrating and too effective.",
-          "riotStatement": "Riot says it is targeting bot Seraphine through E rank-up cooldown.",
+          "reason": "Riot reduced this champion’s direct Summoner’s Rift power.",
+          "riotStatement": "Riot's stated goal is to reduce Seraphine's power with bot-lane performance in mind.",
           "details": [
-            "E cooldown no longer decreases with rank."
-          ]
+            "Cooldown: 11 / 10.5 / 10 / 9.5 / 9s ⇒ 11s"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Syndra",
           "classification": "nerf",
-          "reason": "Syndra overperformed in specific solo-queue settings.",
-          "riotStatement": "Riot says W and mana breakpoints are being tapped down.",
+          "reason": "Key changes: Splinter Mana reduced; Cooldown reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Syndra's power with mid-lane performance in mind.",
           "details": [
-            "Passive mana reduced.",
-            "W cooldown increased."
-          ]
+            "Splinter Mana: 20 - 255 ⇒ 20 - 199",
+            "Cooldown: 12 / 11 / 10 / 9 / 8s ⇒ 13 / 12 / 11 / 10 / 9s"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Viego",
           "classification": "buff",
-          "reason": "Viego's win rate and player interest had been declining.",
-          "riotStatement": "Riot says Viego has room for general power and bruiser-build viability.",
+          "reason": "Key changes: Attack Damage Growth improved; Heal improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Viego with bot-lane performance in mind.",
           "details": [
-            "AD growth increased.",
-            "Passive healing gained additional scaling hooks."
-          ]
+            "Attack Damage Growth: 3.5 ⇒ 4",
+            "Heal: 2% (+…. ) ⇒ 2% (+ 2.5% per 100 bonus AD) (+ 2% per 100 AP) (+ 5% per 100% bonus attack speed) (+ 2% per 500 bonus HP) of the target's maximum health"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Zaahen",
           "classification": "buff",
-          "reason": "A resurrection interaction made Q feel worse, and Q2 damage had room to increase.",
-          "riotStatement": "Riot says it is using a QoL fix as an opportunity to give Zaahen some love.",
+          "reason": "Key changes: Q2 Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Zaahen.",
           "details": [
-            "Q cooldown behavior improved around resurrection.",
-            "Q2 base damage increased."
-          ]
+            "NEW Cooldown Behavior: If Q is active, it is now placed on Cooldown immediately upon being put in Resurrection",
+            "Q2 Damage: 25 / 50 / 75 / 100 / 125 (+20 / 25 / 30 / 35 / 40% bonus AD) ⇒ 30 / 60 / 90 / 120 / 150 (+20 / 25 / 30 / 35 / 40% bonus AD)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Zeri",
           "classification": "nerf",
-          "reason": "Recent item buffs pushed Zeri above her intended power level.",
-          "riotStatement": "Riot says it is pulling power from burst and waveclear.",
+          "reason": "Key changes: Damage reduced; Wall Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Zeri's power.",
           "details": [
-            "W AD scaling reduced."
-          ]
+            "Damage: 30 / 70 / 110 / 150 / 190 (+120% tAD) ⇒ 30 / 70 / 110 / 150 / 190 (+100% tAD)",
+            "Wall Damage: 45 / 105 / 165 / 225 / 285 (+180% tAD) ⇒ 45 / 105 / 165 / 225 / 285 (+150% tAD)",
+            "Critical Strike: 150% (+15% IE)"
+          ],
+          "needsReview": false
         }
       ]
     },
     {
       "patch": "26.17",
       "date": "2026-08-25",
-      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-17-notes/",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-17-notes",
       "changes": [
         {
           "champion": "Aurelion Sol",
           "classification": "buff",
-          "reason": "Aurelion Sol came out weaker after the prior mage adjustments.",
-          "riotStatement": "Riot says it is giving him a buff, especially to W availability.",
+          "reason": "Key changes: Mana Cost Per Second improved; Cooldown improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Aurelion Sol.",
           "details": [
-            "Q mana cost reduced.",
-            "W cooldown reduced at later ranks."
-          ]
+            "Mana Cost Per Second: 35 / 40 / 45 / 50 / 55 ⇒ 30 / 35 / 40 / 45 / 50",
+            "Cooldown: 22 / 20.5 / 19 / 17.5 / 16s ⇒ 22 / 20 / 18 / 16 / 14s"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Cho'Gath",
           "classification": "buff",
-          "reason": "Recent rune/item nerfs weakened Cho'Gath's early game.",
-          "riotStatement": "Riot says it is restoring some early auto-attack damage.",
+          "reason": "Key changes: Base Damage (x3 attacks) improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Cho'Gath in the early game.",
           "details": [
-            "E base damage increased."
-          ]
+            "Base Damage (x3 attacks): 20 / 40 / 60 / 80 / 100 (+30% AP) (+2.5% - 3.9% (+.5% Per Feast) Target Max HP) ⇒ 30 / 50 / 70 / 90 / 110 (+30% AP) (+2.5% - 3.9% (+.5% Per Feast) Target Max HP)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Graves",
           "classification": "nerf",
-          "reason": "Several indirect buffs had pushed Graves too high.",
-          "riotStatement": "Riot says it is softening his snowballing with high-AD builds.",
+          "reason": "Key changes: Initial Damage reduced; Return Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Graves's power.",
           "details": [
-            "Q bonus-AD ratios reduced."
-          ]
+            "Initial Damage: 50 / 75 / 100 / 125 / 150 (+65% bonus AD) ⇒ 50 / 75 / 100 / 125 / 150 (+55% bonus AD)",
+            "Return Damage: 80 / 125 / 170 / 215 / 260 (+55 / 70 / 85 / 100 / 115% bonus AD) ⇒ 80 / 125 / 170 / 215 / 260 (+45 / 60 / 75 / 90 / 105% bonus AD)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Irelia",
           "classification": "buff",
-          "reason": "Irelia was too dependent on snowballing and failed to scale into a carry threat.",
-          "riotStatement": "Riot says it is improving her carry scaling.",
+          "reason": "Key changes: Damage improved; Damage Reduction Ability Power Ratio improved; Ability Power Ratio improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Irelia.",
           "details": [
-            "Q AD ratio increased.",
-            "W and R AP ratios increased."
-          ]
+            "Damage: 5 / 25 / 45 / 65 / 85 (+70% AD) ⇒ 5 / 25 / 45 / 65 / 85 (+80% AD)",
+            "Damage Reduction Ability Power Ratio: 7% per 100 AP (Halved for Magic Damage) (reduced to 75% value for Magic Damage in Arena) ⇒ 8% per 100 AP (Halved for Magic Damage) (reduced to 75% value for Magic Damage in Arena)",
+            "Ability Power Ratio: 70% ⇒ 100% (It is already 100% in Arena, so this is standardizing the value)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "LeBlanc",
           "classification": "buff",
-          "reason": "Old Statikk-driven attack-speed constraints were no longer needed and AP assassination had room for power.",
-          "riotStatement": "Riot says it is restoring a more normal attack-speed baseline and buffing AP ratios.",
+          "reason": "Key changes: Attack Speed Ratio improved; Attack Speed Growth reduced; Damage improved, plus 1 other change.",
+          "riotStatement": "Riot's stated goal is to strengthen LeBlanc.",
           "details": [
-            "Attack speed ratio increased while growth decreased.",
-            "W and RW AP ratios increased."
-          ]
+            "Attack Speed Ratio: 0.4 ⇒ 0.625",
+            "Attack Speed Growth: 2.35% ⇒ 1.5%",
+            "Damage: 75 / 115 / 155 / 195 / 235 (+80% AP) ⇒ 75 / 115 / 155 / 195 / 235 (+90% AP)",
+            "Damage: 150 / 315 / 480 (+80% AP) ⇒ 150 / 315 / 480 (+90% AP)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Nasus",
           "classification": "nerf",
-          "reason": "Top Nasus benefited too much from the new stacking paradigm.",
-          "riotStatement": "Riot says it is tapping down top-specific sustain.",
+          "reason": "Key changes: Life Steal reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Nasus's power with top-lane performance in mind.",
           "details": [
-            "Passive lifesteal reduced."
-          ]
+            "Life Steal: 12 / 18 / 24% ⇒ 10 / 15 / 20%"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Nocturne",
           "classification": "nerf",
-          "reason": "Nocturne remained strong across skill levels.",
-          "riotStatement": "Riot says it wants more personal risk around his level-six spike.",
+          "reason": "Key changes: Armor reduced; Health reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Nocturne's power.",
           "details": [
-            "Armor and health reduced."
-          ]
+            "Armor: 38 ⇒ 36",
+            "Health: 655 ⇒ 640"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Qiyana",
           "classification": "adjustment",
-          "reason": "Mid Qiyana gained damage while jungle clear efficiency was reduced.",
-          "riotStatement": "Riot says it wants to support jungle Qiyana without leaving mid underwhelming.",
+          "reason": "Key changes: Damage improved; Monster Damage Modifier reduced.",
+          "riotStatement": "Riot is redistributing Qiyana's power with a focus on jungle performance rather than making a clean one-direction change.",
           "details": [
-            "Q champion damage increased.",
-            "Q monster modifier reduced."
-          ]
+            "Damage: 70 / 100 / 130 / 160 / 190 (+85% bonus AD) ⇒ 80 / 110 / 140 / 170 / 200 (+90% bonus AD)",
+            "Monster Damage Modifier: 175% against Monsters ⇒ 160% against Monsters"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Thresh",
           "classification": "nerf",
-          "reason": "Thresh had quietly reached a high win rate and rising play rate.",
-          "riotStatement": "Riot taps down Flay damage.",
+          "reason": "Key changes: Active Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Thresh's power.",
           "details": [
-            "E active base damage and AP ratio reduced."
-          ]
+            "Active Damage: 75 / 120 / 165 / 210 / 255 (+70% AP) ⇒ 65 / 110 / 155 / 200 / 245 (+60% AP)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Trundle",
           "classification": "buff",
-          "reason": "Trundle's personal damage had fallen behind his utility.",
-          "riotStatement": "Riot says his personal clubbing power is too weak.",
+          "reason": "Key changes: Attack Speed improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Trundle.",
           "details": [
-            "W attack speed increased at ranks 2-5."
-          ]
+            "Attack Speed: 30 / 45 / 60 / 75 / 90% ⇒ 30 / 50 / 70 / 90 / 110%"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Vayne",
           "classification": "nerf",
-          "reason": "Riot prioritized reducing top-lane Vayne power despite small base-stat compensation.",
-          "riotStatement": "Riot says the goal is to constrain top-lane power more than bot-lane power.",
+          "reason": "Key changes: Mana Cost reduced; True Damage reduced; Minimum Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Vayne's power with bot-lane performance in mind.",
           "details": [
-            "Some early base stats improved.",
-            "Q mana cost increased early.",
-            "W damage reduced early."
-          ]
+            "Health: 550 + 103/Level ⇒ 580 + 98/Level",
+            "Health Regeneration: 3.5 + .55/Level ⇒ 4 + .5/Level",
+            "Attack Speed Ratio: .658 + 3.3%/Level ⇒ .67 + 2.8%/Level",
+            "Mana Cost: 30 ⇒ 46 / 42 / 38 / 34 / 30",
+            "True Damage: 6 / 7 / 8 / 9 / 10% Target Max HP ⇒ 4 / 5.5 / 7 / 8.5 / 10% Target Max HP",
+            "Minimum Damage: 50 / 65 / 80 / 95 / 110 ⇒ 40 / 55 / 70 / 85 / 100"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Xerath",
           "classification": "nerf",
-          "reason": "Xerath was slightly too strong in both mid and bot.",
-          "riotStatement": "Riot calls for a light nerf due to power and regional ban rates.",
+          "reason": "Key changes: Health reduced; Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Xerath's power with bot-lane performance in mind.",
           "details": [
-            "Health reduced.",
-            "Q base damage reduced."
-          ]
+            "Health: 596 ⇒ 575",
+            "Damage: 75 / 115 / 155 / 195 / 235 (+90% AP) ⇒ 70 / 110 / 150 / 190 / 230 (+90% AP)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Yasuo",
           "classification": "buff",
-          "reason": "Yasuo was too snowball-dependent instead of scaling reliably as a carry.",
-          "riotStatement": "Riot says it is reducing his critical-strike damage penalty.",
+          "reason": "Key changes: Critical Strike Damage Reduction improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Yasuo with a focus on crit builds.",
           "details": [
-            "Critical-strike damage penalty reduced from 10% to 5%."
-          ]
+            "Critical Strike Damage Reduction: -10% ⇒ -5%"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Yone",
           "classification": "buff",
-          "reason": "Yone had a similar snowball-dependence problem to Yasuo.",
-          "riotStatement": "Riot applies the same crit-scaling improvement to Yone.",
+          "reason": "Key changes: Critical Strike Damage Reduction improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Yone.",
           "details": [
-            "Critical-strike damage penalty reduced from 10% to 5%."
-          ]
+            "Critical Strike Damage Reduction: -10% ⇒ -5%"
+          ],
+          "needsReview": false
         }
       ]
     },
     {
       "patch": "26.16",
       "date": "2026-08-11",
-      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-16-notes/",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-16-notes",
       "changes": [
         {
           "champion": "Azir",
           "classification": "buff",
-          "reason": "Azir still needed laning help while Riot monitored his keystone choices.",
-          "riotStatement": "Riot calls this a moderate laning buff.",
+          "reason": "Key changes: Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Azir.",
           "details": [
-            "Q base damage increased."
-          ]
+            "Damage: 60 / 80 / 100 / 120 / 140 (+35 / 40 / 45 / 50 / 55% AP) ⇒ 75 / 95 / 115 / 135 / 155 (+35 / 40 / 45 / 50 / 55% AP)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Bel'Veth",
           "classification": "nerf",
-          "reason": "Bel'Veth's late-game scaling was rising too sharply after her update.",
-          "riotStatement": "Riot says it is making the late game less sharp.",
+          "reason": "Key changes: Health Growth reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Bel'Veth's power in the late game.",
           "details": [
-            "Health growth reduced.",
-            "R true-form attack-speed curve reduced late."
-          ]
+            "Health Growth: 110 ⇒ 105",
+            "True Form Total Attack Speed: 5 / 15 / 25% ⇒ 6 / 13 / 20%",
+            "NEW True Form Remora Indicator: Resource bar now turns purple when True Form can spawn Remora"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Camille",
           "classification": "adjustment",
-          "reason": "Support roaming power was reduced while top-lane repeat trading was improved.",
-          "riotStatement": "Riot explicitly frames this as a role-shifting change rather than a clean buff.",
+          "reason": "Key changes: Mana improved; Cooldown improved; Outer Cone Bonus Damage improved.",
+          "riotStatement": "Riot is redistributing Camille's power with top-lane performance in mind rather than making a clean one-direction change.",
           "details": [
-            "Mana increased.",
-            "Passive shield early value reduced but cooldown improved.",
-            "W cooldown and outer-cone damage improved."
-          ]
+            "Mana: 339 ⇒ 375",
+            "Shield: 20% Maximum Health ⇒ 10 / 15 / 20 / 25% Maximum Health (levels 1 / 7 / 13 / 19)",
+            "Cooldown: 18 / 14 / 10 / 6s (levels 1 / 7 / 13 / 19) ⇒ 14 / 11 / 8s (levels 1 / 7 / 13)",
+            "Cooldown: 15 / 14 / 13 / 12 / 11s ⇒ 12 / 11.5 / 11 / 10.5 / 10s",
+            "Outer Cone Bonus Damage: 6 / 6.5 / 7 / 7.5 / 8% (+2.5% per 100 bonus Attack Damage) Target Maximum Health ⇒ 7 / 7.5 / 8 / 8.5 / 9% (+2.5% per 100 bonus Attack Damage) Target Maximum Health"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Gwen",
           "classification": "buff",
-          "reason": "Gwen remained slightly weak after earlier nerfs.",
-          "riotStatement": "Riot says it is buffing passive sustain.",
+          "reason": "Riot increased this champion’s direct Summoner’s Rift power.",
+          "riotStatement": "Riot says Gwen has lost or lacks power and is being strengthened.",
           "details": [
-            "Passive healing against champions increased."
-          ]
+            "Healing On Champions: 50% post-mitigation, capped to 10-25 (based on level) (+6.5% AP) ⇒ 67% post-mitigation, capped to 12-40 (based on level) (+7% AP)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Kennen",
           "classification": "buff",
-          "reason": "Rocketbelt changes left Kennen weaker than intended.",
-          "riotStatement": "Riot says it is compensating Kennen and rewarding strong ultimate flanks.",
+          "reason": "Key changes: Bonus Resistances improved; Damage improved; Maximum Damage improved.",
+          "riotStatement": "Riot says Kennen has lost or lacks power and is being strengthened.",
           "details": [
-            "R resistances and damage increased."
-          ]
+            "Bonus Resistances: 20 / 40 / 60 ⇒ 25 / 50 / 75",
+            "Damage: 40 / 75 / 110 (+22.5% AP) ⇒ 40 / 80 / 120 (+25% AP)",
+            "Maximum Damage: 300 / 562.5 / 825 (+168.75% AP) ⇒ 300 / 600 / 900 (+187.5% AP)"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Nasus",
           "classification": "adjustment",
-          "reason": "Stack generation was shifted to bring top and jungle closer together.",
-          "riotStatement": "Riot describes this as a role-power adjustment.",
+          "reason": "This patch shifts power between parts of the champion’s kit rather than being a clean one-direction change.",
+          "riotStatement": "Riot is redistributing Nasus's power with a focus on jungle performance rather than making a clean one-direction change.",
           "details": [
-            "Normal Q stacks increased.",
-            "Large-target stacks reduced."
-          ]
+            "Stacks: 3, increased to 12 on champions / large minions / monsters ⇒ 4, increased to 10 on champions / large minions / monsters"
+          ],
+          "needsReview": false
         },
         {
           "champion": "Poppy",
           "classification": "adjustment",
-          "reason": "Power moved away from early AD-fighter patterns toward tank scaling.",
-          "riotStatement": "Riot says it is shifting power rather than simply increasing it.",
+          "reason": "Key changes: Attack Damage reduced; Health Regeneration improved; Mana improved, plus 3 other changes.",
+          "riotStatement": "Riot is redistributing Poppy's power in the early game rather than making a clean one-direction change.",
           "details": [
-            "Base AD and Q AD ratio reduced.",
-            "Mana, regen, tank scaling and monster cap improved."
-          ]
+            "Attack Damage: 60 ⇒ 56",
+            "Health Regeneration: 8 ⇒ 9",
+            "Mana: 280 + 40/level ⇒ 300 + 45/level",
+            "Damage: 30 / 55 / 80 / 105 / 130 (+100% bonus Attack Damage) (+9% Target Maximum Health), twice ⇒ 30 / 55 / 80 / 105 / 130 (+75% bonus Attack Damage) (+7 / 7.5 / 8 / 8.5 / 9% Target Maximum Health), twice",
+            "Target Maximum Health Monster Cap: 75 / 105 / 135 / 165 / 195 ⇒ 85 / 120 / 155 / 190 / 225",
+            "Slow Amount: 20 / 25 / 30 / 35 / 40% ⇒ 20 / 23 / 26 / 29 / 32% (+8% per 1000 bonus Health)",
+            "Total Armor and Magic Resistance: 12%, doubled below 40% Maximum Health ⇒ 16%, doubled below 40% Maximum Health"
+          ],
+          "needsReview": false
         }
       ]
     }
