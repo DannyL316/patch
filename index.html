@@ -78,7 +78,7 @@
         <h2>Official Riot wording</h2>
         <p>The app stores a short paraphrase of Riot's intent plus a direct source link. It deliberately avoids mirroring whole copyrighted patch-note passages.</p>
         <h2>Updating</h2>
-        <p>The included Node script checks Riot's patch index, keeps the newest five patches, extracts the normal Champions section, and conservatively classifies obvious buffs and nerfs. Ambiguous changes are marked for review and can be fixed in <code>data/overrides.json</code>.</p>
+        <p>The included Node script checks Riot's patch index, keeps and re-parses the newest five patches, extracts the normal Champions section, combines numeric direction with Riot's stated intent, and uses <code>data/overrides.json</code> for edge cases. Ambiguous changes are still marked for review rather than guessed.</p>
       </div>
     </section>
   </main>
