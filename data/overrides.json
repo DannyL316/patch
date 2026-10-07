@@ -19,5 +19,23 @@
     "Lucian": "adjustment",
     "Rumble": "adjustment",
     "Ryze": "adjustment"
+  },
+  "26.20": {
+    "Ambessa": "nerf",
+    "Ashe": "nerf",
+    "Cassiopeia": "nerf",
+    "Diana": "buff",
+    "Kennen": "buff",
+    "Kindred": "buff",
+    "K'Sante": "nerf",
+    "Lillia": "buff",
+    "Lucian": "buff",
+    "Mordekaiser": "buff",
+    "Neeko": "buff",
+    "Smolder": "buff",
+    "Swain": "buff",
+    "Tahm Kench": "buff",
+    "Vayne": "buff",
+    "Yunara": "nerf"
   }
 }
