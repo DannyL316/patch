@@ -1,7 +1,295 @@
 {
-  "updatedAt": "2026-10-07T12:16:17.587Z",
+  "updatedAt": "2026-10-21T04:58:13.079Z",
   "windowSize": 5,
   "patches": [
+    {
+      "patch": "26.21",
+      "date": "2026-10-20",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes",
+      "changes": [
+        {
+          "champion": "Azir",
+          "classification": "buff",
+          "reason": "Key changes: Mana Growth improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Azir.",
+          "details": [
+            "Mana Growth: 40/Level ⇒ 50/Level"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Caitlyn",
+          "classification": "adjustment",
+          "reason": "Key changes: Damage reduced; Base Damage improved.",
+          "riotStatement": "Riot is redistributing Caitlyn's power with bot-lane performance in mind rather than making a clean one-direction change.",
+          "details": [
+            "Damage: 60 - 100% AD (+1% AD per 1% per Crit Chance) (+1% AD per 1% Bonus Crit Damage) ⇒ 60 - 80% AD (+0.8% AD per 1% per Crit Chance) (+0.8% AD per 1% Bonus Crit Damage)",
+            "Base Damage: 50 / 90 / 130 / 170 / 210 ⇒ 50 / 95 / 140 / 185 / 230"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Darius",
+          "classification": "buff",
+          "reason": "Key changes: Cooldown improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Darius.",
+          "details": [
+            "Cooldown: 9 / 8 / 7 / 6 / 5s ⇒ 9 / 8 / 7 / 6 / 4s"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Jinx",
+          "classification": "nerf",
+          "reason": "Key changes: Attack Damage reduced; Health reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Jinx's power.",
+          "details": [
+            "Attack Damage: 59 + 3.25/Level ⇒ 59 + 3/Level",
+            "Health: 630 + 105/Level ⇒ 610 + 105/Level"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Lee Sin",
+          "classification": "nerf",
+          "reason": "Key changes: Cooldown reduced; Kick Damage reduced; Collision Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Lee Sin's power.",
+          "details": [
+            "Cooldown: 7s ⇒ 8s",
+            "Bugfix: No longer reveals invisible enemies if they stealth after being hit by Tempest.",
+            "Kick Damage: 175 / 400 / 625 (+200% bonus AD) ⇒ 150 / 350 / 550 (+200% bonus AD)",
+            "Collision Damage: 175 / 400 / 625 (+200% bonus AD) (+12 / 15 / 18% Kicked Champion's Health) ⇒ 150 / 350 / 550 (+200% bonus AD) (+12 / 15 / 18% Kicked Champion's Health)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Locke",
+          "classification": "adjustment",
+          "reason": "Key changes: Mana Growth reduced; Mana Cost reduced; Grey Health Store Based on Current Health reduced, plus 1 other change.",
+          "riotStatement": "Riot is redistributing Locke's power rather than making a clean one-direction change.",
+          "details": [
+            "Unused Charge Refund: 20 - 35% mana and cooldown refund ⇒ 10 - 40% mana and cooldown refund",
+            "Mana Growth: 70 ⇒ 60",
+            "Mana Cost: 50 / 55 / 60 / 65 / 70 ⇒ 60 / 65 / 70 / 75 / 80",
+            "Grey Health Store Based on Current Health: 40 - 200 (both level based) ⇒ 20 - 200",
+            "Current Health Store: 150 - 450 (both level based) ⇒ 100 - 500 (+60% AP)",
+            "Blink Damage: 40 / 50 / 60 / 70 / 80 (+40% AP) ⇒ 40 / 55 / 70 / 85 / 100 (+50% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Miss Fortune",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved; Critical Strike Damage improved.",
+          "riotStatement": "Riot says Miss Fortune has lost or lacks power and is being strengthened.",
+          "details": [
+            "Damage: 70 / 100 / 130 / 160 / 190 (+120% AP) ⇒ 90 / 120 / 150 / 180 / 210 (+120% AP)",
+            "Critical Strike Damage: 130% (+0.3% per 1% Bonus Crit Damage) ⇒ 145% (+0.45% per 1% Bonus Crit Damage)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Nidalee",
+          "classification": "nerf",
+          "reason": "Key changes: Damage reduced; Attack Speed reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Nidalee's power with a focus on jungle performance.",
+          "details": [
+            "Damage: 55 / 88.75 / 122.5 / 156.25 / 190 (+50% bonus AD) (+30% AP) ⇒ 50 / 80 / 110 / 140 / 170 (+50% bonus AD) (+30% AP)",
+            "Attack Speed: 30 / 40 / 50 / 60 / 70% ⇒ 20 / 30 / 40 / 50 / 60%"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Nunu & Willump",
+          "classification": "buff",
+          "reason": "Key changes: Maximum Damage improved.",
+          "riotStatement": "Riot says Nunu & Willump has lost or lacks power and is being strengthened.",
+          "details": [
+            "Maximum Damage: 625 / 925 / 1275 (+300% AP) ⇒ 750 / 1100 / 1450 (+300% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Orianna",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved; Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Orianna in the late game.",
+          "details": [
+            "Damage: 60 / 90 / 120 / 150 / 180 (+55% AP) ⇒ 60 / 90 / 120 / 150 / 180 (+60% AP)",
+            "Damage: 70 / 110 / 150 / 190 / 230 (+80% AP) ⇒ 70 / 110 / 150 / 190 / 230 (+85% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Qiyana",
+          "classification": "nerf",
+          "reason": "Key changes: Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Qiyana's power.",
+          "details": [
+            "Damage: 80 / 110 / 140 / 170 / 200 (+90% bonus AD) ⇒ 70 / 100 / 130 / 160 / 190 (+90% bonus AD)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Rammus",
+          "classification": "nerf",
+          "reason": "Key changes: Bonus Armor reduced; Bonus Magic Resistance reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Rammus's power.",
+          "details": [
+            "Bonus Armor: 27 / 32 / 37 / 42 / 47 (+30 - 60% Armor) ⇒ 25 / 30 / 35 / 40 / 45 (+30 - 50% Armor)",
+            "Bonus Magic Resistance: 20 / 25 / 30 / 35 / 40 (+30 - 60% Magic Resistance) ⇒ 20 / 25 / 30 / 35 / 40 (+30 - 50% Magic Resistance)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Ryze",
+          "classification": "buff",
+          "reason": "Key changes: Bonus Move Speed improved; Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Ryze in the early game.",
+          "details": [
+            "Flux Bonus Damage: 15% / 40% / 65% / 90% increased damage ⇒ 10% / 40% / 70% / 100% increased damage",
+            "Bonus Move Speed: 28% / 32% / 36% / 40% / 44% ⇒ 30% / 35% / 40% / 45% / 50%",
+            "Damage: 60 / 90 / 120 / 150 / 180 (+60% AP) (+3% bonus mana) ⇒ 60 / 90 / 120 / 150 / 180 (+70% AP) (+3% bonus mana)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Sion",
+          "classification": "buff",
+          "reason": "Key changes: Health improved; Damage Increase over the First 3s of Channeling improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Sion with top-lane performance in mind.",
+          "details": [
+            "Health: 655 + 87/Level ⇒ 655 + 95/Level",
+            "Damage Increase over the First 3s of Channeling: +0 - 166.67% Base Damage, 0 - 100% Ratio Damage ⇒ +0 - 200%",
+            "Bugfix: Tooltip now displays the correct minimum and maximum bonus AD ratios (40-120%). It displayed an incorrect Bonus AD Scaling (60%-120%). It was never actually changed in patch 25.16 beyond the tooltip."
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Taliyah",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved; Detonation Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Taliyah with a focus on jungle performance.",
+          "details": [
+            "Damage: 60 / 105 / 150 / 195 / 240 (+60% AP) ⇒ 70 / 115 / 160 / 205 / 250 (+70% AP)",
+            "Detonation Damage: 25 / 40 / 55 / 70 / 85 (+30% AP) ⇒ 30 / 45 / 60 / 75 / 90 (+30% AP)",
+            "Monster Damage: Deals 225% damage to monsters."
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Taric",
+          "classification": "review",
+          "reason": "The automatic parser could not determine a safe overall direction for this change.",
+          "riotStatement": "Riot provided context for Taric, but the automatic classifier still considers the overall direction ambiguous.",
+          "details": [
+            "Cast Behavior: Q casts when allies are untargetable will now successfully fire.",
+            "Cast Behavior: E casts when allies are untargetable will now successfully fire.",
+            "Tooltip: Updated to include “Dazzle will not cast from Vanished allies”.",
+            "Cast Behavior: R casts when allies are untargetable will now successfully fire."
+          ],
+          "needsReview": true
+        },
+        {
+          "champion": "Tristana",
+          "classification": "nerf",
+          "reason": "Key changes: Attack Speed reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Tristana's power in the early game.",
+          "details": [
+            "Attack Speed: 60 / 75 / 90 / 105 / 120% ⇒ 40 / 60 / 80 / 100 / 120%"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Twisted Fate",
+          "classification": "review",
+          "reason": "The automatic parser could not determine a safe overall direction for this change.",
+          "riotStatement": "Riot provided context for Twisted Fate, but the automatic classifier still considers the overall direction ambiguous.",
+          "details": [
+            "Reveal: Now reveals untargetable units."
+          ],
+          "needsReview": true
+        },
+        {
+          "champion": "Varus",
+          "classification": "buff",
+          "reason": "Key changes: Damage Increase over Channel Time improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Varus with bot-lane performance in mind.",
+          "details": [
+            "Damage Calculation: Max Damage scaling, 53.33 - 240 (+80% bonus AD) to 80 - 360 (+120% bonus AD) ⇒ Min Damage scaling, 50 - 230 (+80% bonus AD) to 85 - 391 (+136% bonus AD)",
+            "Damage Increase over Channel Time: Up to 50% ⇒ Up to 70%",
+            "On-Hit Damage: 4 / 13 / 22 / 31 / 40 (+15% bonus AD) (+25% AP) ⇒ 4 / 10 / 16 / 22 / 28 (+20% bonus AD) (+30% AP)",
+            "Per Stack Damage: 3 - 5% (+1.3% per 100 AP) Target Maximum Health ⇒ 2.5 - 4.5% (+1.4% per 100 AP) Target Maximum Health",
+            "Active Missing Health Damage: 6 - 14%, increased by up to 50% based on Q Channel ⇒ 6 - 10%, increased by up to 70% based on Q Channel",
+            "Basic Ability Cooldown Refund: 13% per stack, increased by up to 50% based on Q Channel ⇒ 11%, increased by up to 70% based on Q Channel"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Vel'Koz",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Vel'Koz with mid-lane performance in mind.",
+          "details": [
+            "Damage: 35 - 180 (+60% AP) ⇒ 35 - 205 (+65% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Viktor",
+          "classification": "nerf",
+          "reason": "Key changes: Move Speed reduced; Shield reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Viktor's power in the early game.",
+          "details": [
+            "Move Speed: 335 ⇒ 330",
+            "Shield: 40 - 140 (based on level) (+25% AP) ⇒ 30 - 130 (+20% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Wukong",
+          "classification": "adjustment",
+          "reason": "Key changes: Health Regeneration improved; Armor per Stack reduced.",
+          "riotStatement": "Riot is redistributing Wukong's power with a focus on jungle performance rather than making a clean one-direction change.",
+          "details": [
+            "Health Regeneration: 3.5 + 0.65/Level ⇒ 5.5 + 0.65/Level",
+            "Armor per Stack: 6 - 10 (based on Champion Level) ⇒ 4.5 - 10 (based on Champion Level)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Xin Zhao",
+          "classification": "adjustment",
+          "reason": "Key changes: Damage per Strike improved; Attack Speed Scaling reduced.",
+          "riotStatement": "Riot is redistributing Xin Zhao's power with bot-lane performance in mind rather than making a clean one-direction change.",
+          "details": [
+            "Damage per Strike: 15 / 30 / 45 / 60 / 75 (+40% bonus AD) ⇒ 15 / 30 / 45 / 60 / 75 (+45% bonus AD)",
+            "Attack Speed Scaling: 1% per 5% bonus Attack Speed from permanent sources ⇒ 1% per 4% bonus Attack Speed from permanent sources"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Yone",
+          "classification": "nerf",
+          "reason": "Key changes: Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Yone's power with a focus on crit builds.",
+          "details": [
+            "Damage: 25 / 50 / 75 / 100 / 125 (+110% AD) ⇒ 25 / 50 / 75 / 100 / 125 (+105% AD)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Zyra",
+          "classification": "buff",
+          "reason": "Key changes: Seed Ammo Cooldown improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Zyra.",
+          "details": [
+            "Seed Ammo Cooldown: 18 / 16 / 14 / 12 / 10s ⇒ 16 / 14.5 / 13 / 11.5 / 10s"
+          ],
+          "needsReview": false
+        }
+      ]
+    },
     {
       "patch": "26.20",
       "date": "2026-10-06",
@@ -669,97 +957,6 @@
           "riotStatement": "Riot's stated goal is to strengthen Yone.",
           "details": [
             "Critical Strike Damage Reduction: -10% ⇒ -5%"
-          ],
-          "needsReview": false
-        }
-      ]
-    },
-    {
-      "patch": "26.16",
-      "date": "2026-08-11",
-      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-16-notes",
-      "changes": [
-        {
-          "champion": "Azir",
-          "classification": "buff",
-          "reason": "Key changes: Damage improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Azir.",
-          "details": [
-            "Damage: 60 / 80 / 100 / 120 / 140 (+35 / 40 / 45 / 50 / 55% AP) ⇒ 75 / 95 / 115 / 135 / 155 (+35 / 40 / 45 / 50 / 55% AP)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Bel'Veth",
-          "classification": "nerf",
-          "reason": "Key changes: Health Growth reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Bel'Veth's power in the late game.",
-          "details": [
-            "Health Growth: 110 ⇒ 105",
-            "True Form Total Attack Speed: 5 / 15 / 25% ⇒ 6 / 13 / 20%",
-            "NEW True Form Remora Indicator: Resource bar now turns purple when True Form can spawn Remora"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Camille",
-          "classification": "adjustment",
-          "reason": "Key changes: Mana improved; Cooldown improved; Outer Cone Bonus Damage improved.",
-          "riotStatement": "Riot is redistributing Camille's power with top-lane performance in mind rather than making a clean one-direction change.",
-          "details": [
-            "Mana: 339 ⇒ 375",
-            "Shield: 20% Maximum Health ⇒ 10 / 15 / 20 / 25% Maximum Health (levels 1 / 7 / 13 / 19)",
-            "Cooldown: 18 / 14 / 10 / 6s (levels 1 / 7 / 13 / 19) ⇒ 14 / 11 / 8s (levels 1 / 7 / 13)",
-            "Cooldown: 15 / 14 / 13 / 12 / 11s ⇒ 12 / 11.5 / 11 / 10.5 / 10s",
-            "Outer Cone Bonus Damage: 6 / 6.5 / 7 / 7.5 / 8% (+2.5% per 100 bonus Attack Damage) Target Maximum Health ⇒ 7 / 7.5 / 8 / 8.5 / 9% (+2.5% per 100 bonus Attack Damage) Target Maximum Health"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Gwen",
-          "classification": "buff",
-          "reason": "Riot increased this champion’s direct Summoner’s Rift power.",
-          "riotStatement": "Riot says Gwen has lost or lacks power and is being strengthened.",
-          "details": [
-            "Healing On Champions: 50% post-mitigation, capped to 10-25 (based on level) (+6.5% AP) ⇒ 67% post-mitigation, capped to 12-40 (based on level) (+7% AP)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Kennen",
-          "classification": "buff",
-          "reason": "Key changes: Bonus Resistances improved; Damage improved; Maximum Damage improved.",
-          "riotStatement": "Riot says Kennen has lost or lacks power and is being strengthened.",
-          "details": [
-            "Bonus Resistances: 20 / 40 / 60 ⇒ 25 / 50 / 75",
-            "Damage: 40 / 75 / 110 (+22.5% AP) ⇒ 40 / 80 / 120 (+25% AP)",
-            "Maximum Damage: 300 / 562.5 / 825 (+168.75% AP) ⇒ 300 / 600 / 900 (+187.5% AP)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Nasus",
-          "classification": "adjustment",
-          "reason": "This patch shifts power between parts of the champion’s kit rather than being a clean one-direction change.",
-          "riotStatement": "Riot is redistributing Nasus's power with a focus on jungle performance rather than making a clean one-direction change.",
-          "details": [
-            "Stacks: 3, increased to 12 on champions / large minions / monsters ⇒ 4, increased to 10 on champions / large minions / monsters"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Poppy",
-          "classification": "adjustment",
-          "reason": "Key changes: Attack Damage reduced; Health Regeneration improved; Mana improved, plus 3 other changes.",
-          "riotStatement": "Riot is redistributing Poppy's power in the early game rather than making a clean one-direction change.",
-          "details": [
-            "Attack Damage: 60 ⇒ 56",
-            "Health Regeneration: 8 ⇒ 9",
-            "Mana: 280 + 40/level ⇒ 300 + 45/level",
-            "Damage: 30 / 55 / 80 / 105 / 130 (+100% bonus Attack Damage) (+9% Target Maximum Health), twice ⇒ 30 / 55 / 80 / 105 / 130 (+75% bonus Attack Damage) (+7 / 7.5 / 8 / 8.5 / 9% Target Maximum Health), twice",
-            "Target Maximum Health Monster Cap: 75 / 105 / 135 / 165 / 195 ⇒ 85 / 120 / 155 / 190 / 225",
-            "Slow Amount: 20 / 25 / 30 / 35 / 40% ⇒ 20 / 23 / 26 / 29 / 32% (+8% per 1000 bonus Health)",
-            "Total Armor and Magic Resistance: 12%, doubled below 40% Maximum Health ⇒ 16%, doubled below 40% Maximum Health"
           ],
           "needsReview": false
         }
