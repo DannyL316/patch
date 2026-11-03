@@ -1,7 +1,167 @@
 {
-  "updatedAt": "2026-10-21T04:58:13.079Z",
+  "updatedAt": "2026-11-03T19:34:02.230Z",
   "windowSize": 5,
   "patches": [
+    {
+      "patch": "26.22",
+      "date": "2026-11-03",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-22-notes",
+      "changes": [
+        {
+          "champion": "Aurelion Sol",
+          "classification": "buff",
+          "reason": "Key changes: Total Magic Damage improved.",
+          "riotStatement": "Riot says Aurelion Sol has lost or lacks power and is being strengthened.",
+          "details": [
+            "Total Magic Damage: 50 / 75 / 100 / 125 / 150 (+60% AP) over 5s ⇒ 50 / 80 / 110 / 140 / 170 (+60 / 65 / 70 / 75 / 80% AP) over 5s"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Corki",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Corki around high-level and pro play.",
+          "details": [
+            "Damage: 90 / 170 / 250 (+85% bonus AD) ⇒ 100 / 190 / 280 (+90% bonus AD)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Kayle",
+          "classification": "buff",
+          "reason": "Key changes: Cooldown improved; Cooldown improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Kayle with top-lane performance in mind.",
+          "details": [
+            "Cooldown: 12 / 11 / 10 / 9 / 8s ⇒ 10 / 9.5 / 9 / 8.5 / 8s",
+            "Cooldown: 160 / 120 / 80s ⇒ 140 / 110 / 80s"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Locke",
+          "classification": "nerf",
+          "reason": "Key changes: Stack Bonus Damage reduced; Duration reduced.",
+          "riotStatement": "Riot says Locke is too strong or reliable and is being toned down in the early game.",
+          "details": [
+            "Stack Bonus Damage: 18 / 26 / 34 / 42 / 50 ⇒ 15 / 22 / 29 / 36 / 43",
+            "Duration: 6s ⇒ 5s"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Maokai",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Maokai with a focus on jungle performance.",
+          "details": [
+            "Damage: 75 / 120 / 165 / 210 / 255 (+2 / 2.5 / 3 / 3.5 / 4% Target Maximum Health) (+50% AP) ⇒ 75 / 120 / 165 / 210 / 255 (+2.5 / 3 / 3.5 / 4 / 4.5% Target Maximum Health) (+50% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Mel",
+          "classification": "adjustment",
+          "reason": "Key changes: AR improved; AD reduced; AS improved, plus 8 other changes.",
+          "riotStatement": "Riot is redistributing Mel's power in the early game rather than making a clean one-direction change.",
+          "details": [
+            "Health: 640 + 99/Level ⇒ 590 + 107/Level",
+            "Mana: 480 + 28/Level ⇒ 455 + 38/Level",
+            "AR: +5.2/Level ⇒ +5.4/Level",
+            "AD: 54 + 3.3/Level ⇒ 52 + 3.3/Level",
+            "AS: 2.5%/Level ⇒ 2.75%/Level",
+            "Bonus Damage Per Bolt: 8 - 30 (+4% AP) ⇒ 4 - 30 (+4% AP)",
+            "First Stack Damage Against Minions: 50% Less ⇒ 45% Less",
+            "First Hit Damage: 60 / 85 / 110 / 135 / 160 (+55% AP) ⇒ 60 (+25% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Naafiri",
+          "classification": "buff",
+          "reason": "Key changes: Heal improved; Bonus Attack Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Naafiri with a focus on jungle performance.",
+          "details": [
+            "Heal: 45 / 60 / 75 / 90 / 105 (+40% bonus AD) ⇒ 55 / 70 / 85 / 100 / 115 (+45% bonus AD)",
+            "Bonus Attack Damage: 20% ⇒ 22%"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Rumble",
+          "classification": "buff",
+          "reason": "Riot increased this champion’s direct Summoner’s Rift power.",
+          "riotStatement": "Riot's stated goal is to strengthen Rumble around high-level and pro play.",
+          "details": [
+            "Damage per Second: 120 / 200 / 280 (+35% AP) ⇒ (+40% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Shen",
+          "classification": "buff",
+          "reason": "Key changes: Monster Damage Modifier improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Shen with a focus on jungle performance.",
+          "details": [
+            "Monster Damage Modifier: 100 / 125 / 150 / 175 / 200 ⇒ 120 / 140 / 160 / 180 / 200"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Smolder",
+          "classification": "buff",
+          "reason": "Key changes: Explosion Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Smolder with a focus on crit builds.",
+          "details": [
+            "Explosion Damage: 10 / 35 / 60 / 85 / 110 (+50% bonus AD) (+80% AP) ⇒ 25 / 50 / 75 / 100 / 125 (+50% bonus AD) (+80% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Thresh",
+          "classification": "nerf",
+          "reason": "Key changes: Attack Damage reduced; Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Thresh's power with top-lane performance in mind.",
+          "details": [
+            "Attack Damage: 56 ⇒ 54",
+            "Damage: 250 / 400 / 550 (+100% AP) ⇒ 200 / 350 / 500 (+100% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Viktor",
+          "classification": "buff",
+          "reason": "Key changes: Health Growth improved; Conjure Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Viktor in the early game.",
+          "details": [
+            "Health Growth: 100/Level ⇒ 105/Level",
+            "Conjure Damage: 100 / 175 / 250 (+50% AP) ⇒ 100 / 175 / 250 (+60% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Yasuo",
+          "classification": "nerf",
+          "reason": "Key changes: Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Yasuo's power with a focus on crit builds.",
+          "details": [
+            "Damage: 20 / 45 / 70 / 95 / 120 (+105% total AD) ⇒ 20 / 45 / 70 / 95 / 120 (+100% total AD)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Zaahen",
+          "classification": "review",
+          "reason": "The automatic parser could not determine a safe overall direction for this change.",
+          "riotStatement": "Riot provided context for Zaahen, but the automatic classifier still considers the overall direction ambiguous.",
+          "details": [
+            "Cooldown: 10 / 9 / 8 / 7 / 6s",
+            "⇒ 8 / 7.5 / 7 / 6.5 / 6s"
+          ],
+          "needsReview": true
+        }
+      ]
+    },
     {
       "patch": "26.21",
       "date": "2026-10-20",
@@ -795,168 +955,6 @@
             "Damage: 30 / 70 / 110 / 150 / 190 (+120% tAD) ⇒ 30 / 70 / 110 / 150 / 190 (+100% tAD)",
             "Wall Damage: 45 / 105 / 165 / 225 / 285 (+180% tAD) ⇒ 45 / 105 / 165 / 225 / 285 (+150% tAD)",
             "Critical Strike: 150% (+15% IE)"
-          ],
-          "needsReview": false
-        }
-      ]
-    },
-    {
-      "patch": "26.17",
-      "date": "2026-08-25",
-      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-17-notes",
-      "changes": [
-        {
-          "champion": "Aurelion Sol",
-          "classification": "buff",
-          "reason": "Key changes: Mana Cost Per Second improved; Cooldown improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Aurelion Sol.",
-          "details": [
-            "Mana Cost Per Second: 35 / 40 / 45 / 50 / 55 ⇒ 30 / 35 / 40 / 45 / 50",
-            "Cooldown: 22 / 20.5 / 19 / 17.5 / 16s ⇒ 22 / 20 / 18 / 16 / 14s"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Cho'Gath",
-          "classification": "buff",
-          "reason": "Key changes: Base Damage (x3 attacks) improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Cho'Gath in the early game.",
-          "details": [
-            "Base Damage (x3 attacks): 20 / 40 / 60 / 80 / 100 (+30% AP) (+2.5% - 3.9% (+.5% Per Feast) Target Max HP) ⇒ 30 / 50 / 70 / 90 / 110 (+30% AP) (+2.5% - 3.9% (+.5% Per Feast) Target Max HP)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Graves",
-          "classification": "nerf",
-          "reason": "Key changes: Initial Damage reduced; Return Damage reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Graves's power.",
-          "details": [
-            "Initial Damage: 50 / 75 / 100 / 125 / 150 (+65% bonus AD) ⇒ 50 / 75 / 100 / 125 / 150 (+55% bonus AD)",
-            "Return Damage: 80 / 125 / 170 / 215 / 260 (+55 / 70 / 85 / 100 / 115% bonus AD) ⇒ 80 / 125 / 170 / 215 / 260 (+45 / 60 / 75 / 90 / 105% bonus AD)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Irelia",
-          "classification": "buff",
-          "reason": "Key changes: Damage improved; Damage Reduction Ability Power Ratio improved; Ability Power Ratio improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Irelia.",
-          "details": [
-            "Damage: 5 / 25 / 45 / 65 / 85 (+70% AD) ⇒ 5 / 25 / 45 / 65 / 85 (+80% AD)",
-            "Damage Reduction Ability Power Ratio: 7% per 100 AP (Halved for Magic Damage) (reduced to 75% value for Magic Damage in Arena) ⇒ 8% per 100 AP (Halved for Magic Damage) (reduced to 75% value for Magic Damage in Arena)",
-            "Ability Power Ratio: 70% ⇒ 100% (It is already 100% in Arena, so this is standardizing the value)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "LeBlanc",
-          "classification": "buff",
-          "reason": "Key changes: Attack Speed Ratio improved; Attack Speed Growth reduced; Damage improved, plus 1 other change.",
-          "riotStatement": "Riot's stated goal is to strengthen LeBlanc.",
-          "details": [
-            "Attack Speed Ratio: 0.4 ⇒ 0.625",
-            "Attack Speed Growth: 2.35% ⇒ 1.5%",
-            "Damage: 75 / 115 / 155 / 195 / 235 (+80% AP) ⇒ 75 / 115 / 155 / 195 / 235 (+90% AP)",
-            "Damage: 150 / 315 / 480 (+80% AP) ⇒ 150 / 315 / 480 (+90% AP)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Nasus",
-          "classification": "nerf",
-          "reason": "Key changes: Life Steal reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Nasus's power with top-lane performance in mind.",
-          "details": [
-            "Life Steal: 12 / 18 / 24% ⇒ 10 / 15 / 20%"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Nocturne",
-          "classification": "nerf",
-          "reason": "Key changes: Armor reduced; Health reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Nocturne's power.",
-          "details": [
-            "Armor: 38 ⇒ 36",
-            "Health: 655 ⇒ 640"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Qiyana",
-          "classification": "adjustment",
-          "reason": "Key changes: Damage improved; Monster Damage Modifier reduced.",
-          "riotStatement": "Riot is redistributing Qiyana's power with a focus on jungle performance rather than making a clean one-direction change.",
-          "details": [
-            "Damage: 70 / 100 / 130 / 160 / 190 (+85% bonus AD) ⇒ 80 / 110 / 140 / 170 / 200 (+90% bonus AD)",
-            "Monster Damage Modifier: 175% against Monsters ⇒ 160% against Monsters"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Thresh",
-          "classification": "nerf",
-          "reason": "Key changes: Active Damage reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Thresh's power.",
-          "details": [
-            "Active Damage: 75 / 120 / 165 / 210 / 255 (+70% AP) ⇒ 65 / 110 / 155 / 200 / 245 (+60% AP)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Trundle",
-          "classification": "buff",
-          "reason": "Key changes: Attack Speed improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Trundle.",
-          "details": [
-            "Attack Speed: 30 / 45 / 60 / 75 / 90% ⇒ 30 / 50 / 70 / 90 / 110%"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Vayne",
-          "classification": "nerf",
-          "reason": "Key changes: Mana Cost reduced; True Damage reduced; Minimum Damage reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Vayne's power with bot-lane performance in mind.",
-          "details": [
-            "Health: 550 + 103/Level ⇒ 580 + 98/Level",
-            "Health Regeneration: 3.5 + .55/Level ⇒ 4 + .5/Level",
-            "Attack Speed Ratio: .658 + 3.3%/Level ⇒ .67 + 2.8%/Level",
-            "Mana Cost: 30 ⇒ 46 / 42 / 38 / 34 / 30",
-            "True Damage: 6 / 7 / 8 / 9 / 10% Target Max HP ⇒ 4 / 5.5 / 7 / 8.5 / 10% Target Max HP",
-            "Minimum Damage: 50 / 65 / 80 / 95 / 110 ⇒ 40 / 55 / 70 / 85 / 100"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Xerath",
-          "classification": "nerf",
-          "reason": "Key changes: Health reduced; Damage reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Xerath's power with bot-lane performance in mind.",
-          "details": [
-            "Health: 596 ⇒ 575",
-            "Damage: 75 / 115 / 155 / 195 / 235 (+90% AP) ⇒ 70 / 110 / 150 / 190 / 230 (+90% AP)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Yasuo",
-          "classification": "buff",
-          "reason": "Key changes: Critical Strike Damage Reduction improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Yasuo with a focus on crit builds.",
-          "details": [
-            "Critical Strike Damage Reduction: -10% ⇒ -5%"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Yone",
-          "classification": "buff",
-          "reason": "Key changes: Critical Strike Damage Reduction improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Yone.",
-          "details": [
-            "Critical Strike Damage Reduction: -10% ⇒ -5%"
           ],
           "needsReview": false
         }
