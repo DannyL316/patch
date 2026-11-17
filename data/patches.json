@@ -1,7 +1,156 @@
 {
-  "updatedAt": "2026-11-03T19:34:02.230Z",
+  "updatedAt": "2026-11-17T21:02:11.125Z",
   "windowSize": 5,
   "patches": [
+    {
+      "patch": "26.23",
+      "date": "2026-11-17",
+      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-23-notes",
+      "changes": [
+        {
+          "champion": "Annie",
+          "classification": "buff",
+          "reason": "Key changes: Tibbers Health improved; Tibbers Aura Damage per Second improved; Tibbers Attack Damage improved.",
+          "riotStatement": "Riot says Annie has lost or lacks power and is being strengthened.",
+          "details": [
+            "Tibbers Health: 1150 - 3500 (Scaling with Champion Level) (+50% AP) ⇒ 1275 - 4000 (Scaling with Champion Level) (+50% AP) (+150% Bonus HP)",
+            "Tibbers Aura Damage per Second: 8 / 12 / 16 (+4% AP) ⇒ 10 / 15 / 20 (+4% AP)",
+            "Tibbers Attack Damage: 30 / 45 / 60 (+10% AP) ⇒ 30 / 50 / 70 (+10% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Azir",
+          "classification": "buff",
+          "reason": "Key changes: Attack Range improved; On Hit / Attack Damage Ratio improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Azir.",
+          "details": [
+            "Attack Range: 525 ⇒ 550",
+            "On Hit / Attack Damage Ratio: 50% ⇒ 67%"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Bard",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved.",
+          "riotStatement": "Riot says Bard has lost or lacks power and is being strengthened with top-lane performance in mind.",
+          "details": [
+            "Damage: 80 / 120 / 160 / 200 / 240 (+80% AP) ⇒ 80 / 125 / 170 / 215 / 260 (+100% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Ezreal",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved; Champion Damage improved.",
+          "riotStatement": "Riot says Ezreal has lost or lacks power and is being strengthened around high-level and pro play.",
+          "details": [
+            "Damage: 80 / 135 / 190 / 245 / 300 (+100% bonus AD) (+90% AP) ⇒ 80 / 135 / 190 / 245 / 300 (+115% bonus AD) (+100% AP)",
+            "Champion Damage: 350 / 550 / 750 (+100% bonus AD) (+110% AP) ⇒ 350 / 600 / 850 (+110% bonus AD) (+120% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Galio",
+          "classification": "buff",
+          "reason": "Key changes: Shield Amount (Also affects R) improved.",
+          "riotStatement": "Riot says Galio has lost or lacks power and is being strengthened.",
+          "details": [
+            "Shield Amount (Also affects R): 7.5 / 9 / 10.5 / 12 / 13.5% of his Max HP ⇒ 8 / 11 / 14 / 17 / 20% of his Max HP"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Gnar",
+          "classification": "buff",
+          "reason": "Key changes: Mini Damage improved; Mega Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Gnar with top-lane performance in mind.",
+          "details": [
+            "Mini Damage: 5 / 45 / 85 / 125 / 165 (+125% AD) ⇒ 5 / 45 / 85 / 125 / 165 (+135% AD)",
+            "Mega Damage: 45 / 90 / 135 / 180 / 225 (+140% AD) ⇒ 45 / 90 / 135 / 180 / 225 (+150% AD)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "K'Sante",
+          "classification": "adjustment",
+          "reason": "Key changes: Base Damage improved; All Out Charge Time Damage Increase reduced.",
+          "riotStatement": "Riot is redistributing K'Sante's power in the late game rather than making a clean one-direction change.",
+          "details": [
+            "Mana: 45 / 50 / 55 / 60 / 65 ⇒ 45",
+            "Base Damage: 45 / 75 / 105 / 135 / 165 ⇒ 45 / 85 / 125 / 165 / 205",
+            "All Out Charge Time Damage Increase: 10 / 27.5 / 45 / 62.5 / 80% damage ⇒ 10 / 26.25 / 42.5 / 58.75 / 75% damage"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "LeBlanc",
+          "classification": "nerf",
+          "reason": "Key changes: Ability Power Ratio (Both Initial and Mark) reduced.",
+          "riotStatement": "Riot's stated goal is to reduce LeBlanc's power.",
+          "details": [
+            "Ability Power Ratio (Both Initial and Mark): 40% AP ⇒ 35% AP"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Master Yi",
+          "classification": "nerf",
+          "reason": "Key changes: Damage reduced; Maximum Single Target Damage reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Master Yi's power with a focus on crit builds.",
+          "details": [
+            "Damage: 20 / 40 / 60 / 80 / 100 (+70% AD) ⇒ 20 / 40 / 60 / 80 / 100 (+60% AD)",
+            "Maximum Single Target Damage: 35 / 70 / 105 / 140 / 175 (+122.5% AD) ⇒ 35 / 70 / 105 / 140 / 175 (+105% AD). Reminder that this can also Critically Strike for bonus damage."
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Mel",
+          "classification": "buff",
+          "reason": "Key changes: Subsequent Bolt Damage improved; Maximum Damage improved; Shield improved, plus 1 other change.",
+          "riotStatement": "Riot says Mel has lost or lacks power and is being strengthened.",
+          "details": [
+            "Subsequent Bolt Damage: 5 / 10 / 15 / 20 / 25 (+8% AP) ⇒ 6 / 11 / 16 / 21 / 26 (+9% AP)",
+            "Maximum Damage: 85 / 120 / 165 / 220 / 285 (+65 / 73 / 81 / 89 / 97% AP) ⇒ 90 / 126 / 172 / 228 / 294 (+70 / 79 / 88 / 97 / 106% AP)",
+            "Shield: 50 / 80 / 110 / 140 / 170 (+50% AP) ⇒ 50 / 90 / 130 / 170 / 210 (+50% AP)",
+            "Retaliation: 35 / 40 / 45 / 50 / 55 (+10% AP) ⇒ 35 / 45 / 55 / 65 / 75 (+10% AP)"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Syndra",
+          "classification": "nerf",
+          "reason": "Key changes: Mana Cost reduced; Cooldown reduced.",
+          "riotStatement": "Riot's stated goal is to reduce Syndra's power with bot-lane performance in mind.",
+          "details": [
+            "Mana Cost: 50 ⇒ 60",
+            "Cooldown: 15 ⇒ 17 / 16.5 / 16 / 15.5 / 15"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Vel'Koz",
+          "classification": "buff",
+          "reason": "Key changes: Total Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Vel'Koz.",
+          "details": [
+            "Total Damage: 450 / 700 / 925 ⇒ 450 / 700 / 950"
+          ],
+          "needsReview": false
+        },
+        {
+          "champion": "Vi",
+          "classification": "buff",
+          "reason": "Key changes: Damage improved.",
+          "riotStatement": "Riot's stated goal is to strengthen Vi.",
+          "details": [
+            "Damage: 10 / 30 / 50 / 70 / 90 (+110% AD) (+100% AP) ⇒ 10 / 35 / 60 / 85 / 110 (+110% AD) (+100% AP)"
+          ],
+          "needsReview": false
+        }
+      ]
+    },
     {
       "patch": "26.22",
       "date": "2026-11-03",
@@ -822,139 +971,6 @@
           "details": [
             "Attack Speed per Stack: 5% (+3% per 100 AP) ⇒ 5% (+4% per 100 AP)",
             "Lightning On-Hit Damage: 11 - 60 (Levels 1-18) (+45% AP) ⇒ 11 - 60 (Levels 1-18) (+45% AP) (+20% bonus AD)"
-          ],
-          "needsReview": false
-        }
-      ]
-    },
-    {
-      "patch": "26.18",
-      "date": "2026-09-09",
-      "sourceUrl": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-18-notes",
-      "changes": [
-        {
-          "champion": "Bard",
-          "classification": "nerf",
-          "reason": "Key changes: Armor reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Bard's power.",
-          "details": [
-            "Armor: 34 + 5/Level ⇒ 32 + 4.7/Level"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Cassiopeia",
-          "classification": "adjustment",
-          "reason": "Key changes: Move Speed Bonus reduced; Damage reduced; Ability Power Ratio improved, plus 6 other changes.",
-          "riotStatement": "Riot is redistributing Cassiopeia's power with a focus on crit builds rather than making a clean one-direction change.",
-          "details": [
-            "Move Speed Bonus: 6% - 40% (based on level) ⇒ 5% - 36% (based on level)",
-            "Damage: 75 / 110 / 145 / 180 / 215 ⇒ 65 / 100 / 135 / 170 / 205",
-            "Ability Power Ratio: 65% ⇒ 75%",
-            "Mana Cost: 40 ⇒ 45",
-            "Base Ability Power Ratio: 10% ⇒ 20%",
-            "Enhanced Ability Power Ratio: 55% ⇒ 45%",
-            "Total Ability Power Ratio: 65% ⇒ 65%",
-            "Damage: 52 - 120 ⇒ 50 - 120"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Ekko",
-          "classification": "buff",
-          "reason": "Key changes: Mana Cost improved; Return Damage Ability Power Ratio improved.",
-          "riotStatement": "Riot says Ekko has lost or lacks power and is being strengthened with mid-lane performance in mind.",
-          "details": [
-            "Mana Cost: 50 / 60 / 70 / 80 / 90 ⇒ 40 / 50 / 60 / 70 / 80",
-            "Return Damage Ability Power Ratio: 60% ⇒ 70%"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Kassadin",
-          "classification": "buff",
-          "reason": "Key changes: Ability Power Ratio improved; Base Damage improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Kassadin in the late game.",
-          "details": [
-            "Ability Power Ratio: 70% AP ⇒ 80% AP",
-            "Base Damage: 70 / 90 / 110 ⇒ 80 / 95 / 110"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Master Yi",
-          "classification": "buff",
-          "reason": "Key changes: Armor Growth improved; Move Speed improved.",
-          "riotStatement": "Riot says Master Yi has lost or lacks power and is being strengthened.",
-          "details": [
-            "Armor Growth: 33 + 4.5/Level ⇒ 33 + 5/Level",
-            "Move Speed: 35 / 45 / 55% ⇒ 40 / 50 / 60%"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Nautilus",
-          "classification": "nerf",
-          "reason": "Key changes: Attack Damage reduced; Damage reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Nautilus's power with top-lane performance in mind.",
-          "details": [
-            "Attack Damage: 61 + 3.3/Level ⇒ 58 + 3.3/Level",
-            "Damage: 85 / 130 / 175 / 220 / 265 (+90% AP) ⇒ 85 / 125 / 165 / 205 / 245 (+90% AP)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Seraphine",
-          "classification": "nerf",
-          "reason": "Riot reduced this champion’s direct Summoner’s Rift power.",
-          "riotStatement": "Riot's stated goal is to reduce Seraphine's power with bot-lane performance in mind.",
-          "details": [
-            "Cooldown: 11 / 10.5 / 10 / 9.5 / 9s ⇒ 11s"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Syndra",
-          "classification": "nerf",
-          "reason": "Key changes: Splinter Mana reduced; Cooldown reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Syndra's power with mid-lane performance in mind.",
-          "details": [
-            "Splinter Mana: 20 - 255 ⇒ 20 - 199",
-            "Cooldown: 12 / 11 / 10 / 9 / 8s ⇒ 13 / 12 / 11 / 10 / 9s"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Viego",
-          "classification": "buff",
-          "reason": "Key changes: Attack Damage Growth improved; Heal improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Viego with bot-lane performance in mind.",
-          "details": [
-            "Attack Damage Growth: 3.5 ⇒ 4",
-            "Heal: 2% (+…. ) ⇒ 2% (+ 2.5% per 100 bonus AD) (+ 2% per 100 AP) (+ 5% per 100% bonus attack speed) (+ 2% per 500 bonus HP) of the target's maximum health"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Zaahen",
-          "classification": "buff",
-          "reason": "Key changes: Q2 Damage improved.",
-          "riotStatement": "Riot's stated goal is to strengthen Zaahen.",
-          "details": [
-            "NEW Cooldown Behavior: If Q is active, it is now placed on Cooldown immediately upon being put in Resurrection",
-            "Q2 Damage: 25 / 50 / 75 / 100 / 125 (+20 / 25 / 30 / 35 / 40% bonus AD) ⇒ 30 / 60 / 90 / 120 / 150 (+20 / 25 / 30 / 35 / 40% bonus AD)"
-          ],
-          "needsReview": false
-        },
-        {
-          "champion": "Zeri",
-          "classification": "nerf",
-          "reason": "Key changes: Damage reduced; Wall Damage reduced.",
-          "riotStatement": "Riot's stated goal is to reduce Zeri's power.",
-          "details": [
-            "Damage: 30 / 70 / 110 / 150 / 190 (+120% tAD) ⇒ 30 / 70 / 110 / 150 / 190 (+100% tAD)",
-            "Wall Damage: 45 / 105 / 165 / 225 / 285 (+180% tAD) ⇒ 45 / 105 / 165 / 225 / 285 (+150% tAD)",
-            "Critical Strike: 150% (+15% IE)"
           ],
           "needsReview": false
         }
